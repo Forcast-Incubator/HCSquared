@@ -6,8 +6,9 @@ public class HC2ToolsEditor : EditorWindow
 {
     static HC2ToolsEditor HC2ToolsWindow;
 
-    public GameObject dualCam = null;
-    public GameObject singleCam = null;
+    public GameObject root = null;
+    public GameObject dualHead = null;
+    public GameObject singleHead = null;
     public GameObject stageGeometry = null;
     public GameObject deadZoneGeom = null;
     public GameObject customObject1 = null;
@@ -16,14 +17,12 @@ public class HC2ToolsEditor : EditorWindow
     public GameObject customObject4 = null;
     public GameObject customObject5 = null;
 
-    bool dualCamBtn = false;
-
     [MenuItem("Window/HCSquared Tools")]
     static void OpenPopup()
     {
         HC2ToolsWindow = (HC2ToolsEditor)(EditorWindow.GetWindow(typeof(HC2ToolsEditor)));
 
-        Vector2 minSize = new Vector2(100, 100);
+        Vector2 minSize = new Vector2(200, 200);
 
         HC2ToolsWindow.minSize = minSize;
 
@@ -32,15 +31,47 @@ public class HC2ToolsEditor : EditorWindow
         HC2ToolsWindow.ShowPopup();
     }
 
+    private void OnEnable()
+    {
+        FindAllObjects();
+    }
+
+    private void FindAllObjects()
+    {
+        root = GameObject.Find("ROOT");
+
+        if (root)
+        {
+            Transform[] transforms = root.GetComponentsInChildren<Transform>(true);
+
+            dualHead = FindObject("DualHead", transforms);
+            singleHead = FindObject("SingleHead", transforms);
+            stageGeometry = FindObject("StageGeometry", transforms);
+            deadZoneGeom = FindObject("DeadZone", transforms);
+        }
+    }
+
+    private GameObject FindObject(string name, Transform[] transforms)
+    {
+        foreach (Transform t in transforms)
+        {
+            if (t.gameObject.name == name)
+            {
+                return t.gameObject;
+            }
+        }
+        return null;
+    }
+
     void OnGUI()
     {
         GUI.Label(new Rect(3, 3, position.width - 6, 17), "Camera Rigs", EditorStyles.boldLabel);
         
-        dualCam = (GameObject)EditorGUI.ObjectField(new Rect(14, 43, position.width - 19, 17), GUIContent.none, dualCam, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 23, position.width - 6, 17), "Dual Head (Shift+1)", BoldIfActive(dualCam));
+        dualHead = (GameObject)EditorGUI.ObjectField(new Rect(14, 43, position.width - 19, 17), GUIContent.none, dualHead, typeof(GameObject), true);
+        GUI.Label(new Rect(3, 23, position.width - 6, 17), "Dual Head (Shift+1)", BoldIfActive(dualHead));
 
-        singleCam = (GameObject)EditorGUI.ObjectField(new Rect(14, 83, position.width - 19, 17), GUIContent.none, singleCam, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 63, position.width - 6, 17), "Single Head (Shift+2)", BoldIfActive(singleCam));
+        singleHead = (GameObject)EditorGUI.ObjectField(new Rect(14, 83, position.width - 19, 17), GUIContent.none, singleHead, typeof(GameObject), true);
+        GUI.Label(new Rect(3, 63, position.width - 6, 17), "Single Head (Shift+2)", BoldIfActive(singleHead));
 
         stageGeometry = (GameObject)EditorGUI.ObjectField(new Rect(14, 123, position.width - 19, 17), GUIContent.none, stageGeometry, typeof(GameObject), true);
         GUI.Label(new Rect(3, 103, position.width - 6, 17), "Stage Geometry (Shift+3)", BoldIfActive(stageGeometry));
@@ -74,10 +105,10 @@ public class HC2ToolsEditor : EditorWindow
             switch (current.keyCode)
             {
                 case KeyCode.Alpha1:
-                    ToggleGameObject(dualCam);
+                    ToggleGameObject(dualHead);
                     break;
                 case KeyCode.Alpha2:
-                    ToggleGameObject(singleCam);
+                    ToggleGameObject(singleHead);
                     break;
                 case KeyCode.Alpha3:
                     ToggleGameObject(stageGeometry);
