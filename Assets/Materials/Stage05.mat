@@ -89,7 +89,7 @@ Material:
     - _DstBlend: 0
     - _EndMetallic: 0
     - _EndNormalStrength: 1
-    - _EndRoughMult: 1
+    - _EndRoughMult: 1.3
     - _FadePow: 1.05
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -105,9 +105,9 @@ Material:
     - _StartNormalStrength: 1
     - _StartRoughMult: 1
     - _Switch: 1
-    - _SwitchSlider: 0
+    - _SwitchSlider: 1
     - _TexRangeMax: 1
-    - _TexRangeMin: 0.19
+    - _TexRangeMin: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:

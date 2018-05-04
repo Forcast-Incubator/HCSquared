@@ -111,12 +111,12 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StartMetallic: 0
+    - _StartMetallic: 0.27
     - _StartNormalStrength: 1
     - _StartRoughMult: 1
     - _StartTesselation: 1
     - _Switch: 1
-    - _SwitchSlider: 0
+    - _SwitchSlider: 1
     - _TexRangeMax: 0.6
     - _TexRangeMin: 1.31
     - _UVSec: 0
