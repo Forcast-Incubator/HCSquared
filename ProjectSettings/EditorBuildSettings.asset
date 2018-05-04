@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PeppersGhostTestScene.unity
+    guid: c81874c0d96df724fa16187748178d13
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: ac67af9736574c64198507e35afd3baf

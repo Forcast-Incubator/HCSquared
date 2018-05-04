@@ -17,6 +17,10 @@ public class HC2ToolsEditor : EditorWindow
     public GameObject customObject4 = null;
     public GameObject customObject5 = null;
 
+    private static string currentScene;
+
+    Vector2 scrollPos;
+
     [MenuItem("Window/HCSquared Tools")]
     static void OpenPopup()
     {
@@ -29,12 +33,19 @@ public class HC2ToolsEditor : EditorWindow
         HC2ToolsWindow.titleContent = new GUIContent("HCSquared Tools");
 
         HC2ToolsWindow.ShowPopup();
+
     }
 
     private void OnEnable()
     {
         FindAllObjects();
     }
+
+    public void OnDestroy()
+    {
+
+    }
+
 
     private void FindAllObjects()
     {
@@ -65,74 +76,88 @@ public class HC2ToolsEditor : EditorWindow
 
     void OnGUI()
     {
-        GUI.Label(new Rect(3, 3, position.width - 6, 17), "Camera Rigs", EditorStyles.boldLabel);
+
+        EditorGUILayout.BeginVertical();
+        scrollPos = EditorGUILayout.BeginScrollView(scrollPos, false, true, GUILayout.Height(position.height));
         
-        dualHead = (GameObject)EditorGUI.ObjectField(new Rect(14, 43, position.width - 19, 17), GUIContent.none, dualHead, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 23, position.width - 6, 17), "Dual Head (Shift+1)", BoldIfActive(dualHead));
+        GUILayout.Label("Dual Head (Shift+1)", BoldIfActive(dualHead));
+        dualHead = (GameObject)EditorGUILayout.ObjectField(GUIContent.none, dualHead, typeof(GameObject), true);
+        
+        GUILayout.Label("Single Head (Shift+2)", BoldIfActive(singleHead));
+        singleHead = (GameObject)EditorGUILayout.ObjectField(GUIContent.none, singleHead, typeof(GameObject), true);
 
-        singleHead = (GameObject)EditorGUI.ObjectField(new Rect(14, 83, position.width - 19, 17), GUIContent.none, singleHead, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 63, position.width - 6, 17), "Single Head (Shift+2)", BoldIfActive(singleHead));
+        GUILayout.Label("Stage Geometry (Shift+3)", BoldIfActive(stageGeometry));
+        stageGeometry = (GameObject)EditorGUILayout.ObjectField(GUIContent.none, stageGeometry, typeof(GameObject), true);
 
-        stageGeometry = (GameObject)EditorGUI.ObjectField(new Rect(14, 123, position.width - 19, 17), GUIContent.none, stageGeometry, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 103, position.width - 6, 17), "Stage Geometry (Shift+3)", BoldIfActive(stageGeometry));
-
-        deadZoneGeom = (GameObject)EditorGUI.ObjectField(new Rect(14, 163, position.width - 19, 17), GUIContent.none, deadZoneGeom, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 143, position.width - 6, 17), "Dead Zone Geom (Shift+4)", BoldIfActive(deadZoneGeom));
-
-        customObject1 = (GameObject)EditorGUI.ObjectField(new Rect(14, 203, position.width - 19, 17), GUIContent.none, customObject1, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 183, position.width - 6, 17), "Custom Object (Shift+5)", BoldIfActive(customObject1));
-
-        customObject2 = (GameObject)EditorGUI.ObjectField(new Rect(14, 243, position.width - 19, 17), GUIContent.none, customObject2, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 223, position.width - 6, 17), "Custom Object (Shift+6)", BoldIfActive(customObject2));
-
-        customObject3 = (GameObject)EditorGUI.ObjectField(new Rect(14, 283, position.width - 19, 17), GUIContent.none, customObject3, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 263, position.width - 6, 17), "Custom Object (Shift+7)", BoldIfActive(customObject3));
-
-        customObject4 = (GameObject)EditorGUI.ObjectField(new Rect(14, 323, position.width - 19, 17), GUIContent.none, customObject4, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 303, position.width - 6, 17), "Custom Object (Shift+8)", BoldIfActive(customObject4));
-
-        customObject5 = (GameObject)EditorGUI.ObjectField(new Rect(14, 363, position.width - 19, 17), GUIContent.none, customObject5, typeof(GameObject), true);
-        GUI.Label(new Rect(3, 343, position.width - 6, 17), "Custom Object (Shift+9)", BoldIfActive(customObject5));
+        GUILayout.Label("Dead Zone Geom (Shift+4)", BoldIfActive(deadZoneGeom));
+        deadZoneGeom = (GameObject)EditorGUILayout.ObjectField(GUIContent.none, deadZoneGeom, typeof(GameObject), true);
 
 
+        GUILayout.Label("Custom Object (Shift+5)", BoldIfActive(customObject1));
+        customObject1 = (GameObject)EditorGUILayout.ObjectField(GUIContent.none, customObject1, typeof(GameObject), true);
 
+        GUILayout.Label("Custom Object (Shift+6)", BoldIfActive(customObject2));
+        customObject2 = (GameObject)EditorGUILayout.ObjectField(GUIContent.none, customObject2, typeof(GameObject), true);
+
+        GUILayout.Label("Custom Object (Shift+7)", BoldIfActive(customObject3));
+        customObject3 = (GameObject)EditorGUILayout.ObjectField(GUIContent.none, customObject3, typeof(GameObject), true);
+
+        GUILayout.Label("Custom Object (Shift+8)", BoldIfActive(customObject4));
+        customObject4 = (GameObject)EditorGUILayout.ObjectField(GUIContent.none, customObject4, typeof(GameObject), true);
+
+        GUILayout.Label("Custom Object (Shift+9)", BoldIfActive(customObject5));
+        customObject5 = (GameObject)EditorGUILayout.ObjectField(GUIContent.none, customObject5, typeof(GameObject), true);
+
+        EditorGUILayout.EndScrollView();
+        EditorGUILayout.EndVertical();
+        
+        HandleInput();
+    }
+
+    private void HandleInput()
+    {
+        
         Event current = Event.current;
-        if (current.type != EventType.KeyDown)
-            return;
-
-        if (current.shift)
+        if (current != null)
         {
-            switch (current.keyCode)
+            if ((current.type != EventType.KeyDown))
+                return;
+
+            if (current.shift)
             {
-                case KeyCode.Alpha1:
-                    ToggleGameObject(dualHead);
-                    break;
-                case KeyCode.Alpha2:
-                    ToggleGameObject(singleHead);
-                    break;
-                case KeyCode.Alpha3:
-                    ToggleGameObject(stageGeometry);
-                    break;
-                case KeyCode.Alpha4:
-                    ToggleGameObject(deadZoneGeom);
-                    break;
-                case KeyCode.Alpha5:
-                    ToggleGameObject(customObject1);
-                    break;
-                case KeyCode.Alpha6:
-                    ToggleGameObject(customObject2);
-                    break;
-                case KeyCode.Alpha7:
-                    ToggleGameObject(customObject3);
-                    break;
-                case KeyCode.Alpha8:
-                    ToggleGameObject(customObject4);
-                    break;
-                case KeyCode.Alpha9:
-                    ToggleGameObject(customObject5);
-                    break;
+                switch (current.keyCode)
+                {
+                    case KeyCode.Alpha1:
+                        ToggleGameObject(dualHead);
+                        break;
+                    case KeyCode.Alpha2:
+                        ToggleGameObject(singleHead);
+                        break;
+                    case KeyCode.Alpha3:
+                        ToggleGameObject(stageGeometry);
+                        break;
+                    case KeyCode.Alpha4:
+                        ToggleGameObject(deadZoneGeom);
+                        break;
+                    case KeyCode.Alpha5:
+                        ToggleGameObject(customObject1);
+                        break;
+                    case KeyCode.Alpha6:
+                        ToggleGameObject(customObject2);
+                        break;
+                    case KeyCode.Alpha7:
+                        ToggleGameObject(customObject3);
+                        break;
+                    case KeyCode.Alpha8:
+                        ToggleGameObject(customObject4);
+                        break;
+                    case KeyCode.Alpha9:
+                        ToggleGameObject(customObject5);
+                        break;
+                }
             }
         }
+        
     }
 
     private GUIStyle BoldIfActive(GameObject gameObject)
