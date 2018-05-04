@@ -88,7 +88,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EndMetallic: 0
-    - _FadePow: 0.99
+    - _FadePow: 12.3
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -102,9 +102,13 @@ Material:
     - _StartMetallic: 0
     - _Switch: 1
     - _SwitchSlider: 0
+    - _TexRangeMax: 0.39
+    - _TexRangeMin: 0
     - _UVSec: 0
     - _ZWrite: 1
     - _node_9478: 0
+    - _texmax: 0.35
+    - _texmin: -0.07
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

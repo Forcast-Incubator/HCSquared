@@ -34,3 +34,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+Assets/Shaders/fromS2/
+
+Assets/Shaders/fromS2\.meta
