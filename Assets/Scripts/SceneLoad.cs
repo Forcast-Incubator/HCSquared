@@ -26,6 +26,6 @@ public class SceneLoad : MonoBehaviour {
         yield return SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
         Scene s = SceneManager.GetSceneByName(sceneName);
         GameObject[] g = s.GetRootGameObjects();
-        g[0].transform.position = new Vector3(0, 200, 0);
+        g[0].transform.position = new Vector3(0, 100, 0);
     }
 }

@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Earth001
+  m_Name: DEAD-EARTH_DirtToMud
   m_Shader: {fileID: 4800000, guid: d5f37086523089f46b9bf659fe49c6f4, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -39,19 +39,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndAO:
-        m_Texture: {fileID: 2800000, guid: 4a262f643300ea24b8036853ed293773, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8d73bdba738d1884db6e0bd1cda4e726, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndBumpMap:
-        m_Texture: {fileID: 2800000, guid: 221a0e6df69a8f54d866f33f8e0dee5a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1febbf861b5abef49af98fc29c2fe854, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndMainTex:
-        m_Texture: {fileID: 2800000, guid: 88cabc04b3b089d478eaf131959b5dc2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5fa311ff783f9b34a8b71f1a698e27f9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndRoughness:
-        m_Texture: {fileID: 2800000, guid: bc6f4ef5ae107db49afa411d81649290, type: 3}
+        m_Texture: {fileID: 2800000, guid: 57e0a0586d641da458cf5a6f945da75f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
@@ -89,7 +89,7 @@ Material:
     - _DstBlend: 0
     - _EndMetallic: 0
     - _EndNormalStrength: 0.5
-    - _FadePow: 12.3
+    - _FadePow: 1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -103,7 +103,7 @@ Material:
     - _StartMetallic: 0
     - _StartNormalStrength: 0.5
     - _Switch: 1
-    - _SwitchSlider: 1
+    - _SwitchSlider: 0
     - _TexRangeMax: 0.39
     - _TexRangeMin: 0
     - _UVSec: 0
