@@ -426,6 +426,8 @@ PlayableDirector:
     value: {fileID: 2049720050}
   - key: {fileID: 114900231792128306, guid: e3a6c0fc0ed491d498c04b2043e1d3e0, type: 2}
     value: {fileID: 1926346651}
+  - key: {fileID: 114447665946151352, guid: e3a6c0fc0ed491d498c04b2043e1d3e0, type: 2}
+    value: {fileID: 804616075}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &532941377
@@ -799,6 +801,7 @@ GameObject:
   - component: {fileID: 804616077}
   - component: {fileID: 804616076}
   - component: {fileID: 804616079}
+  - component: {fileID: 804616080}
   m_Layer: 0
   m_Name: AttractorParticles
   m_TagString: Untagged
@@ -821,7 +824,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c74b741594cf8c34b984bd0e2d67764b, type: 2}
   - {fileID: 2100000, guid: 0354120dc3ddfc942900f9f9b73522df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -920,7 +923,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -91921131
+  randomSeed: 1137687890
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -1316,7 +1319,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 5000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -1480,7 +1483,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 200
+      scalar: 50
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -3542,7 +3545,7 @@ ParticleSystem:
     lifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4253,6 +4256,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1926346652}
   speed: 0.5
+--- !u!95 &804616080
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 804616075}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &855822615
 GameObject:
   m_ObjectHideFlags: 0
