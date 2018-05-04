@@ -297,7 +297,7 @@ Prefab:
     - target: {fileID: 2300000, guid: a6bc5df817d7fd34793108ce53031287, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 08a7ef6847652de4eb406e45885731df, type: 2}
+      objectReference: {fileID: 2100000, guid: 05d24623518d49047b721c22871cc3db, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6bc5df817d7fd34793108ce53031287, type: 3}
   m_IsPrefabParent: 0
@@ -484,7 +484,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6a322e6c0a7a7654da650f30b43bd86e, type: 2}
+  - {fileID: 2100000, guid: 9579d610917c9e1419decc57b5d2aae9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
