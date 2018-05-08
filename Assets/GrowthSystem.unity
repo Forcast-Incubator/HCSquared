@@ -373,8 +373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stemPrefab: {fileID: 1401058460005360, guid: cb7462700e3eb4c4c80aa06143f5d914, type: 2}
   stemLength: 3
-  numSegments: 50
-  segmentScale: {x: 3, y: 3, z: 3}
+  numSegments: 30
+  segmentScale: {x: 2, y: 2, z: 2}
   growthForces: {x: 0, y: 0, z: 0}
   segmentRotationOffset: 55
   segmentRotationOffsetRandom: {x: 0, y: 3}
