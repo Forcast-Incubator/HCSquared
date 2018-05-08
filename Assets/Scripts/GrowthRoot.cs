@@ -46,14 +46,32 @@ public class GrowthRoot : MonoBehaviour {
         {
             for (int i = numSegmentsPrevious; i < numSegments; i++)
             {
-                prefabList.Add(new Segment(Instantiate(stemPrefab), Random.Range(segmentRotationOffsetRandom.x, segmentRotationOffsetRandom.y)));
-                prefabList[prefabList.Count - 1].gameObject.name = "Segment " + (i + 1);
-                prefabList[prefabList.Count - 1].gameObject.transform.parent = transform;
+                Segment segment = new Segment(Instantiate(stemPrefab), Random.Range(segmentRotationOffsetRandom.x, segmentRotationOffsetRandom.y));
+                segment.rb = segment.gameObject.GetComponent<Rigidbody>();
+                segment.fj = segment.gameObject.GetComponent<FixedJoint>();
+                segment.gameObject.name = "Segment " + (i + 1);
+                segment.gameObject.transform.parent = transform;
+
+                if (i == 0)
+                    segment.fj.connectedBody = GetComponent<Rigidbody>();
+                else
+                    segment.fj.connectedBody = prefabList[i - 1].rb;
+
+                prefabList.Add(segment);
             }
         }
         numSegmentsPrevious = numSegments;
 
-        
+        for (int i = 0; i < numSegments; i++)
+        {
+            float segmentPercentage = i / (float)numSegments;
+
+            prefabList[i].gameObject.transform.position = transform.position + transform.up * segmentPercentage * stemLength + growthForces * i;
+            prefabList[i].gameObject.transform.localRotation = Quaternion.Euler(0 + growthForces.x * i, i * (segmentRotationOffset + prefabList[i].rotationOffset) + growthForces.y * i, 0 + growthForces.z * i);
+            //prefabList[i].gameObject.transform.rotation = Quaternion.AngleAxis(i * (segmentRotationOffset + prefabList[i].rotationOffset), transform.ro);
+            prefabList[i].gameObject.transform.localScale = segmentScale * Mathf.Clamp01(stemShape.Evaluate(segmentPercentage) * (growthProgression - segmentPercentage));
+            
+        }
     }
 
 	// Update is called once per frame
@@ -65,11 +83,10 @@ public class GrowthRoot : MonoBehaviour {
         for (int i = 0; i < numSegments; i++)
         {
             float segmentPercentage = i / (float)numSegments;
-
-            prefabList[i].gameObject.transform.position = transform.position + transform.up * segmentPercentage * stemLength + growthForces * i;
-            prefabList[i].gameObject.transform.localRotation = Quaternion.Euler(0 + growthForces.x * i, i * (segmentRotationOffset + prefabList[i].rotationOffset) + growthForces.y * i, 0 + growthForces.z * i);
-            //prefabList[i].gameObject.transform.rotation = Quaternion.AngleAxis(i * (segmentRotationOffset + prefabList[i].rotationOffset), transform.ro);
             prefabList[i].gameObject.transform.localScale = segmentScale * Mathf.Clamp01(stemShape.Evaluate(segmentPercentage) * (growthProgression - segmentPercentage));
+            prefabList[i].rb.mass = Mathf.Clamp01(stemShape.Evaluate(segmentPercentage) * (growthProgression - segmentPercentage));
+            //prefabList[i].rb.AddForce(growthForces);
+
         }
     }
 
@@ -84,11 +101,15 @@ public class GrowthRoot : MonoBehaviour {
     {
         public GameObject gameObject;
         public float rotationOffset;
+        public Rigidbody rb;
+        public FixedJoint fj;
 
         public Segment(GameObject _gameObject, float _rotationOffset)
         {
             gameObject = _gameObject;
             rotationOffset = _rotationOffset;
+            rb = null;
+            fj = null;
         }
     }
 }
