@@ -370,7 +370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stemPrefab: {fileID: 1806780439830734, guid: 26488d5e5bafe0149b4783087ba0b9d5, type: 2}
+  stemPrefab: {fileID: 1401058460005360, guid: cb7462700e3eb4c4c80aa06143f5d914, type: 2}
   stemLength: 3
   numSegments: 50
   segmentScale: {x: 3, y: 3, z: 3}

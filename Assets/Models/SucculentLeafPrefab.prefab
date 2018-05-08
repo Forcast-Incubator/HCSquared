@@ -21,8 +21,10 @@ GameObject:
   - component: {fileID: 4589912268193622}
   - component: {fileID: 33336962826060678}
   - component: {fileID: 23178223953992058}
+  - component: {fileID: 320432654092113398}
+  - component: {fileID: 95859409647558680}
   m_Layer: 0
-  m_Name: succuleaf
+  m_Name: SucculentLeafPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,3 +84,38 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1806780439830734}
   m_Mesh: {fileID: 4300004, guid: ea6acf13fbb345649ab88041b2424f52, type: 3}
+--- !u!95 &95859409647558680
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806780439830734}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!320 &320432654092113398
+PlayableDirector:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1806780439830734}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: fce5d7da25f9c4940900cccec5f619b4, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 1
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 114101257015660722, guid: fce5d7da25f9c4940900cccec5f619b4, type: 2}
+    value: {fileID: 1806780439830734}
+  m_ExposedReferences:
+    m_References: []
