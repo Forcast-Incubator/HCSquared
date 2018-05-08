@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8a3bdb2cd68f901469e7cc149151eb49, type: 3}
-  m_Name: PPP Single Head
+  m_Name: PPP Greyscale
   m_EditorClassIdentifier: 
   debugViews:
     m_Enabled: 1
@@ -120,17 +120,17 @@ MonoBehaviour:
         neutralWhiteLevel: 5.3
         neutralWhiteClip: 10
       basic:
-        postExposure: 1
+        postExposure: 3
         temperature: 0
         tint: 0
         hueShift: 0
-        saturation: 1
-        contrast: 1
+        saturation: 0
+        contrast: 2
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
         blue: {x: 0, y: 0, z: 1}
-        currentEditingChannel: 0
+        currentEditingChannel: 2
       colorWheels:
         mode: 1
         log:
