@@ -12,9 +12,10 @@ ModelImporter:
     3300000: //RootNode
     4300000: uvflatten1
     4300002: transform5
+    4300004: OUT
   externalObjects: {}
   materials:
-    importMaterials: 1
+    importMaterials: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
