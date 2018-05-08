@@ -1,36 +1,19 @@
 // Shader created with Shader Forge v1.38 
 // Shader Forge (c) Neat Corporation / Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:1,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:35474,y:33818,varname:node_2865,prsc:2|diff-5035-OUT,spec-9429-OUT,gloss-7454-OUT,normal-2960-OUT,difocc-4576-OUT,spcocc-4576-OUT,disp-9426-OUT,tess-291-OUT;n:type:ShaderForge.SFN_Multiply,id:6343,x:31259,y:32579,varname:node_6343,prsc:2|A-7736-RGB,B-6665-RGB;n:type:ShaderForge.SFN_Color,id:6665,x:31066,y:32676,ptovrint:False,ptlb:Start Color,ptin:_StartColor,varname:_StartColor,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Tex2d,id:7736,x:31066,y:32487,ptovrint:True,ptlb:Start Albedo,ptin:_MainTex,varname:_MainTex,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:90ef472345078ee4baf107867d328e14,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:5964,x:31066,y:33042,ptovrint:True,ptlb:Start  Normal Map,ptin:_BumpMap,varname:_BumpMap,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:ff05e3313f373404b9a735c3151d74a2,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Slider,id:358,x:31238,y:32743,ptovrint:False,ptlb:Start Metallic,ptin:_StartMetallic,varname:_StartMetallic,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Tex2d,id:1726,x:31066,y:32847,ptovrint:False,ptlb:Start Roughness,ptin:_StartRoughness,varname:_StartRoughness,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:036cd497b8b9905479efd06dfb554913,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:6832,x:31066,y:33244,ptovrint:False,ptlb:Start AO,ptin:_StartAO,varname:_StartAO,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:15ac98ec8bd1ac542ae816baf78271bf,ntxv:0,isnm:False;n:type:ShaderForge.SFN_ValueProperty,id:5048,x:32924,y:32457,ptovrint:False,ptlb:Switch,ptin:_Switch,varname:_Switch,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:1;n:type:ShaderForge.SFN_Lerp,id:5035,x:34695,y:33436,varname:node_5035,prsc:2|A-6343-OUT,B-6912-OUT,T-456-OUT;n:type:ShaderForge.SFN_Lerp,id:9429,x:34695,y:33545,varname:node_9429,prsc:2|A-358-OUT,B-4634-OUT,T-456-OUT;n:type:ShaderForge.SFN_Lerp,id:7454,x:34695,y:33669,varname:node_7454,prsc:2|A-4372-OUT,B-2084-OUT,T-456-OUT;n:type:ShaderForge.SFN_Multiply,id:6912,x:31280,y:34431,varname:node_6912,prsc:2|A-9866-RGB,B-578-RGB;n:type:ShaderForge.SFN_Color,id:578,x:31087,y:34514,ptovrint:False,ptlb:End Color,ptin:_EndColor,varname:_EndColor,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:1,c2:1,c3:1,c4:1;n:type:ShaderForge.SFN_Tex2d,id:9866,x:31087,y:34280,ptovrint:True,ptlb:End Albedo,ptin:_EndMainTex,varname:_EndMainTex,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:8443,x:31089,y:34967,ptovrint:True,ptlb:End Normal Map,ptin:_EndBumpMap,varname:_EndBumpMap,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Slider,id:4634,x:31259,y:34595,ptovrint:False,ptlb:End Metallic,ptin:_EndMetallic,varname:_EndMetallic,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Tex2d,id:9211,x:31089,y:34723,ptovrint:False,ptlb:End Roughness,ptin:_EndRoughness,varname:_EndRoughness,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:1819,x:31089,y:35211,ptovrint:False,ptlb:End AO,ptin:_EndAO,varname:_EndAO,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Lerp,id:4576,x:34695,y:33949,varname:node_4576,prsc:2|A-6832-R,B-1819-R,T-456-OUT;n:type:ShaderForge.SFN_Tex2d,id:3677,x:32474,y:31878,ptovrint:False,ptlb:FadeTex,ptin:_FadeTex,varname:node_3677,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,tex:3348ee9eb48c25a4baf2ccafd576ee72,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Vector1,id:5892,x:30684,y:33932,varname:node_5892,prsc:2,v1:0;n:type:ShaderForge.SFN_Vector1,id:5937,x:30684,y:34006,varname:node_5937,prsc:2,v1:1;n:type:ShaderForge.SFN_Relay,id:456,x:33595,y:33039,varname:node_456,prsc:2|IN-1272-OUT;n:type:ShaderForge.SFN_Slider,id:9478,x:32845,y:32543,ptovrint:False,ptlb:Switch Slider,ptin:_SwitchSlider,varname:node_9478,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Multiply,id:1076,x:33198,y:32467,varname:node_1076,prsc:2|A-5048-OUT,B-9478-OUT;n:type:ShaderForge.SFN_ValueProperty,id:3158,x:33455,y:32665,ptovrint:False,ptlb:FadePow,ptin:_FadePow,varname:node_3158,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:1;n:type:ShaderForge.SFN_Power,id:5354,x:33682,y:32587,varname:node_5354,prsc:2|VAL-889-OUT,EXP-3158-OUT;n:type:ShaderForge.SFN_Clamp01,id:1272,x:33915,y:32587,varname:node_1272,prsc:2|IN-5354-OUT;n:type:ShaderForge.SFN_Slider,id:2849,x:32317,y:32060,ptovrint:False,ptlb:TexRangeMin,ptin:_TexRangeMin,varname:node_2849,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:-1,cur:0,max:2;n:type:ShaderForge.SFN_Slider,id:8903,x:32317,y:32151,ptovrint:False,ptlb:TexRangeMax,ptin:_TexRangeMax,varname:_texmin_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:-1,cur:1,max:2;n:type:ShaderForge.SFN_RemapRangeAdvanced,id:5344,x:33026,y:32101,varname:node_5344,prsc:2|IN-3677-R,IMIN-2849-OUT,IMAX-8903-OUT,OMIN-5892-OUT,OMAX-5937-OUT;n:type:ShaderForge.SFN_Clamp01,id:889,x:33856,y:32416,varname:node_889,prsc:2|IN-5590-OUT;n:type:ShaderForge.SFN_Add,id:5590,x:33682,y:32416,varname:node_5590,prsc:2|A-3647-OUT,B-4913-OUT;n:type:ShaderForge.SFN_OneMinus,id:4115,x:33961,y:33040,varname:node_4115,prsc:2|IN-456-OUT;n:type:ShaderForge.SFN_RemapRange,id:4913,x:33365,y:32467,varname:node_4913,prsc:2,frmn:0,frmx:1,tomn:-1,tomx:1|IN-1076-OUT;n:type:ShaderForge.SFN_Append,id:2542,x:32020,y:33572,varname:node_2542,prsc:2|A-5964-R,B-5964-G;n:type:ShaderForge.SFN_Append,id:312,x:32020,y:33700,varname:node_312,prsc:2|A-8443-R,B-8443-G;n:type:ShaderForge.SFN_Multiply,id:8325,x:32329,y:33920,varname:node_8325,prsc:2|A-7652-OUT,B-351-OUT;n:type:ShaderForge.SFN_Multiply,id:1398,x:32329,y:33573,varname:node_1398,prsc:2|A-2542-OUT,B-4115-OUT;n:type:ShaderForge.SFN_Multiply,id:5205,x:32329,y:33767,varname:node_5205,prsc:2|A-312-OUT,B-456-OUT;n:type:ShaderForge.SFN_Lerp,id:7652,x:32020,y:33832,varname:node_7652,prsc:2|A-5964-B,B-5937-OUT,T-456-OUT;n:type:ShaderForge.SFN_Lerp,id:351,x:32020,y:33966,varname:node_351,prsc:2|A-5937-OUT,B-8443-B,T-456-OUT;n:type:ShaderForge.SFN_Add,id:3404,x:32546,y:33637,varname:node_3404,prsc:2|A-1398-OUT,B-5205-OUT;n:type:ShaderForge.SFN_Append,id:3544,x:32739,y:33720,varname:node_3544,prsc:2|A-3404-OUT,B-8325-OUT;n:type:ShaderForge.SFN_Normalize,id:1130,x:32910,y:33720,varname:node_1130,prsc:2|IN-3544-OUT;n:type:ShaderForge.SFN_Lerp,id:2960,x:35051,y:33764,varname:node_2960,prsc:2|A-9637-OUT,B-1130-OUT,T-9321-OUT;n:type:ShaderForge.SFN_Vector3,id:9637,x:34842,y:33706,varname:node_9637,prsc:2,v1:0.5,v2:0.5,v3:1;n:type:ShaderForge.SFN_Lerp,id:9321,x:34695,y:33822,varname:node_9321,prsc:2|A-7186-X,B-7729-X,T-456-OUT;n:type:ShaderForge.SFN_Multiply,id:4372,x:31579,y:32931,varname:node_4372,prsc:2|A-1726-R,B-6838-OUT;n:type:ShaderForge.SFN_Multiply,id:2084,x:31581,y:34788,varname:node_2084,prsc:2|A-9211-R,B-5250-OUT;n:type:ShaderForge.SFN_Slider,id:6838,x:31225,y:32999,ptovrint:False,ptlb:StartRoughMult,ptin:_StartRoughMult,varname:node_6838,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:2;n:type:ShaderForge.SFN_Slider,id:5250,x:31250,y:34870,ptovrint:False,ptlb:EndRoughMult,ptin:_EndRoughMult,varname:node_5250,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:1,max:2;n:type:ShaderForge.SFN_Lerp,id:9426,x:34600,y:34455,varname:node_9426,prsc:2|A-4429-OUT,B-2275-OUT,T-456-OUT;n:type:ShaderForge.SFN_Tex2d,id:5119,x:33538,y:34856,ptovrint:False,ptlb:End Displacement,ptin:_EndDisplacement,varname:node_5119,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:2,isnm:False;n:type:ShaderForge.SFN_ValueProperty,id:291,x:34262,y:34988,ptovrint:False,ptlb:Tesselation,ptin:_Tesselation,varname:node_291,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:1;n:type:ShaderForge.SFN_Multiply,id:2275,x:34262,y:34766,varname:node_2275,prsc:2|A-204-OUT,B-7729-W,C-8512-OUT;n:type:ShaderForge.SFN_Tex2d,id:583,x:33531,y:34486,ptovrint:False,ptlb:Start Displacement,ptin:_StartDisplacement,varname:node_583,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:2,isnm:False;n:type:ShaderForge.SFN_NormalVector,id:8512,x:33948,y:34683,prsc:2,pt:False;n:type:ShaderForge.SFN_Multiply,id:4429,x:34262,y:34535,varname:node_4429,prsc:2|A-7986-OUT,B-7186-W,C-8512-OUT;n:type:ShaderForge.SFN_RemapRangeAdvanced,id:204,x:33787,y:34886,varname:node_204,prsc:2|IN-5119-RGB,IMIN-5892-OUT,IMAX-5937-OUT,OMIN-7729-Y,OMAX-7729-Z;n:type:ShaderForge.SFN_RemapRangeAdvanced,id:7986,x:33793,y:34547,varname:node_7986,prsc:2|IN-583-RGB,IMIN-5892-OUT,IMAX-5937-OUT,OMIN-7186-Y,OMAX-7186-Z;n:type:ShaderForge.SFN_Vector4Property,id:7186,x:33531,y:34672,ptovrint:False,ptlb:Start Nrm Disp Min Max Str,ptin:_StartNrmDispMinMaxStr,varname:node_7186,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0,v2:0,v3:0,v4:0;n:type:ShaderForge.SFN_Vector4Property,id:7729,x:33538,y:35039,ptovrint:False,ptlb:End Nrm Disp Min Max Str,ptin:_EndNrmDispMinMaxStr,varname:node_7729,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0,v2:0,v3:0,v4:0;n:type:ShaderForge.SFN_Lerp,id:4884,x:32141,y:32274,varname:node_4884,prsc:2|A-8488-R,B-7490-OUT,T-3298-OUT;n:type:ShaderForge.SFN_Round,id:3298,x:31937,y:32471,varname:node_3298,prsc:2|IN-8488-R;n:type:ShaderForge.SFN_Power,id:3647,x:33365,y:32263,varname:node_3647,prsc:2|VAL-5344-OUT,EXP-4884-OUT;n:type:ShaderForge.SFN_Tex2d,id:8488,x:31607,y:32252,ptovrint:False,ptlb:FadeNoise,ptin:_FadeNoise,varname:node_8488,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:1,isnm:False;n:type:ShaderForge.SFN_RemapRange,id:7490,x:31937,y:32312,varname:node_7490,prsc:2,frmn:0.5,frmx:1,tomn:0,tomx:10|IN-8488-R;proporder:3677-8488-5048-9478-3158-2849-8903-291-7736-6665-6832-358-1726-6838-5964-583-7186-9866-578-1819-4634-9211-5250-8443-5119-7729;pass:END;sub:END;*/
+/*SF_DATA;ver:1.38;sub:START;pass:START;ps:flbk:,iptp:0,cusa:False,bamd:0,cgin:,lico:1,lgpr:1,limd:3,spmd:1,trmd:0,grmd:0,uamb:True,mssp:True,bkdf:True,hqlp:False,rprd:True,enco:False,rmgx:True,imps:True,rpth:0,vtps:0,hqsc:True,nrmq:1,nrsp:0,vomd:0,spxs:False,tesm:0,olmd:1,culm:0,bsrc:0,bdst:1,dpts:2,wrdp:True,dith:0,atcv:False,rfrpo:True,rfrpn:Refraction,coma:15,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,stcl:False,atwp:False,stva:128,stmr:255,stmw:255,stcp:6,stps:0,stfa:0,stfz:0,ofsf:0,ofsu:0,f2p0:False,fnsp:False,fnfb:False,fsmp:False;n:type:ShaderForge.SFN_Final,id:2865,x:33127,y:32774,varname:node_2865,prsc:2|diff-6343-OUT,spec-358-OUT,gloss-1813-OUT,normal-5964-RGB,emission-1598-OUT,voffset-7215-OUT,tess-2885-OUT;n:type:ShaderForge.SFN_Multiply,id:6343,x:32114,y:32712,varname:node_6343,prsc:2|A-7736-RGB,B-6665-RGB;n:type:ShaderForge.SFN_Color,id:6665,x:31921,y:32805,ptovrint:False,ptlb:Color,ptin:_Color,varname:_Color,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,c1:0.5019608,c2:0.5019608,c3:0.5019608,c4:1;n:type:ShaderForge.SFN_Tex2d,id:7736,x:31921,y:32620,ptovrint:True,ptlb:Base Color,ptin:_MainTex,varname:_MainTex,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:0,isnm:False;n:type:ShaderForge.SFN_Tex2d,id:5964,x:32407,y:32978,ptovrint:True,ptlb:Normal Map,ptin:_BumpMap,varname:_BumpMap,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:3,isnm:True;n:type:ShaderForge.SFN_Slider,id:358,x:32250,y:32780,ptovrint:False,ptlb:Metallic,ptin:_Metallic,varname:node_358,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;n:type:ShaderForge.SFN_Slider,id:1813,x:32250,y:32882,ptovrint:False,ptlb:Gloss,ptin:_Gloss,varname:_Metallic_copy,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0.8,max:1;n:type:ShaderForge.SFN_ValueProperty,id:2885,x:32045,y:33737,ptovrint:False,ptlb:Tesselation,ptin:_Tesselation,varname:node_2885,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:1;n:type:ShaderForge.SFN_Tex2d,id:4185,x:32021,y:33133,ptovrint:False,ptlb:Displacement,ptin:_Displacement,varname:node_4185,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,ntxv:2,isnm:False;n:type:ShaderForge.SFN_Multiply,id:7215,x:32470,y:33188,varname:node_7215,prsc:2|A-4185-RGB,B-8307-OUT,C-1249-OUT;n:type:ShaderForge.SFN_NormalVector,id:8307,x:32173,y:33196,prsc:2,pt:False;n:type:ShaderForge.SFN_ValueProperty,id:1249,x:32021,y:33388,ptovrint:False,ptlb:Disp Str,ptin:_DispStr,varname:node_1249,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,v1:0;n:type:ShaderForge.SFN_Lerp,id:1598,x:32921,y:33003,varname:node_1598,prsc:2|A-5800-OUT,B-2825-OUT,T-5915-OUT;n:type:ShaderForge.SFN_Vector1,id:5800,x:32752,y:32686,varname:node_5800,prsc:2,v1:0;n:type:ShaderForge.SFN_Vector1,id:2825,x:32599,y:32647,varname:node_2825,prsc:2,v1:1;n:type:ShaderForge.SFN_Slider,id:5915,x:32572,y:33079,ptovrint:False,ptlb:node_5915,ptin:_node_5915,varname:node_5915,prsc:2,glob:False,taghide:False,taghdr:False,tagprd:False,tagnsco:False,tagnrm:False,min:0,cur:0,max:1;proporder:5964-6665-7736-358-1813-2885-4185-1249-5915;pass:END;sub:END;*/
 
-Shader "Shader Forge/PBRfader" {
+Shader "Shader Forge/displacementTest" {
     Properties {
-        _FadeTex ("FadeTex", 2D) = "white" {}
-        _FadeNoise ("FadeNoise", 2D) = "gray" {}
-        _Switch ("Switch", Float ) = 1
-        _SwitchSlider ("Switch Slider", Range(0, 1)) = 0
-        _FadePow ("FadePow", Float ) = 1
-        _TexRangeMin ("TexRangeMin", Range(-1, 2)) = 0
-        _TexRangeMax ("TexRangeMax", Range(-1, 2)) = 1
+        _BumpMap ("Normal Map", 2D) = "bump" {}
+        _Color ("Color", Color) = (0.5019608,0.5019608,0.5019608,1)
+        _MainTex ("Base Color", 2D) = "white" {}
+        _Metallic ("Metallic", Range(0, 1)) = 0
+        _Gloss ("Gloss", Range(0, 1)) = 0.8
         _Tesselation ("Tesselation", Float ) = 1
-        _MainTex ("Start Albedo", 2D) = "white" {}
-        _StartColor ("Start Color", Color) = (1,1,1,1)
-        _StartAO ("Start AO", 2D) = "white" {}
-        _StartMetallic ("Start Metallic", Range(0, 1)) = 0
-        _StartRoughness ("Start Roughness", 2D) = "white" {}
-        _StartRoughMult ("StartRoughMult", Range(0, 2)) = 1
-        _BumpMap ("Start  Normal Map", 2D) = "bump" {}
-        _StartDisplacement ("Start Displacement", 2D) = "black" {}
-        _StartNrmDispMinMaxStr ("Start Nrm Disp Min Max Str", Vector) = (0,0,0,0)
-        _EndMainTex ("End Albedo", 2D) = "white" {}
-        _EndColor ("End Color", Color) = (1,1,1,1)
-        _EndAO ("End AO", 2D) = "white" {}
-        _EndMetallic ("End Metallic", Range(0, 1)) = 0
-        _EndRoughness ("End Roughness", 2D) = "white" {}
-        _EndRoughMult ("EndRoughMult", Range(0, 2)) = 1
-        _EndBumpMap ("End Normal Map", 2D) = "bump" {}
-        _EndDisplacement ("End Displacement", 2D) = "black" {}
-        _EndNrmDispMinMaxStr ("End Nrm Disp Min Max Str", Vector) = (0,0,0,0)
+        _Displacement ("Displacement", 2D) = "black" {}
+        _DispStr ("Disp Str", Float ) = 0
+        _node_5915 ("node_5915", Range(0, 1)) = 0
     }
     SubShader {
         Tags {
@@ -62,34 +45,17 @@ Shader "Shader Forge/PBRfader" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d11 
+            #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 5.0
-            uniform float4 _StartColor;
+            uniform float4 _Color;
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform sampler2D _BumpMap; uniform float4 _BumpMap_ST;
-            uniform float _StartMetallic;
-            uniform sampler2D _StartRoughness; uniform float4 _StartRoughness_ST;
-            uniform sampler2D _StartAO; uniform float4 _StartAO_ST;
-            uniform float _Switch;
-            uniform float4 _EndColor;
-            uniform sampler2D _EndMainTex; uniform float4 _EndMainTex_ST;
-            uniform sampler2D _EndBumpMap; uniform float4 _EndBumpMap_ST;
-            uniform float _EndMetallic;
-            uniform sampler2D _EndRoughness; uniform float4 _EndRoughness_ST;
-            uniform sampler2D _EndAO; uniform float4 _EndAO_ST;
-            uniform sampler2D _FadeTex; uniform float4 _FadeTex_ST;
-            uniform float _SwitchSlider;
-            uniform float _FadePow;
-            uniform float _TexRangeMin;
-            uniform float _TexRangeMax;
-            uniform float _StartRoughMult;
-            uniform float _EndRoughMult;
-            uniform sampler2D _EndDisplacement; uniform float4 _EndDisplacement_ST;
+            uniform float _Metallic;
+            uniform float _Gloss;
             uniform float _Tesselation;
-            uniform sampler2D _StartDisplacement; uniform float4 _StartDisplacement_ST;
-            uniform float4 _StartNrmDispMinMaxStr;
-            uniform float4 _EndNrmDispMinMaxStr;
-            uniform sampler2D _FadeNoise; uniform float4 _FadeNoise_ST;
+            uniform sampler2D _Displacement; uniform float4 _Displacement_ST;
+            uniform float _DispStr;
+            uniform float _node_5915;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -129,6 +95,8 @@ Shader "Shader Forge/PBRfader" {
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
                 o.tangentDir = normalize( mul( unity_ObjectToWorld, float4( v.tangent.xyz, 0.0 ) ).xyz );
                 o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
+                float4 _Displacement_var = tex2Dlod(_Displacement,float4(TRANSFORM_TEX(o.uv0, _Displacement),0.0,0));
+                v.vertex.xyz += (_Displacement_var.rgb*v.normal*_DispStr);
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 float3 lightColor = _LightColor0.rgb;
                 o.pos = UnityObjectToClipPos( v.vertex );
@@ -164,16 +132,6 @@ Shader "Shader Forge/PBRfader" {
                     o.texcoord2 = v.texcoord2;
                     return o;
                 }
-                void displacement (inout VertexInput v){
-                    float4 _StartDisplacement_var = tex2Dlod(_StartDisplacement,float4(TRANSFORM_TEX(v.texcoord0, _StartDisplacement),0.0,0));
-                    float node_5892 = 0.0;
-                    float node_5937 = 1.0;
-                    float4 _EndDisplacement_var = tex2Dlod(_EndDisplacement,float4(TRANSFORM_TEX(v.texcoord0, _EndDisplacement),0.0,0));
-                    float4 _FadeTex_var = tex2Dlod(_FadeTex,float4(TRANSFORM_TEX(v.texcoord0, _FadeTex),0.0,0));
-                    float4 _FadeNoise_var = tex2Dlod(_FadeNoise,float4(TRANSFORM_TEX(v.texcoord0, _FadeNoise),0.0,0));
-                    float node_456 = saturate(pow(saturate((pow((node_5892 + ( (_FadeTex_var.r - _TexRangeMin) * (node_5937 - node_5892) ) / (_TexRangeMax - _TexRangeMin)),lerp(_FadeNoise_var.r,(_FadeNoise_var.r*20.0+-10.0),round(_FadeNoise_var.r)))+((_Switch*_SwitchSlider)*2.0+-1.0))),_FadePow));
-                    v.vertex.xyz += lerp(((_StartNrmDispMinMaxStr.g + ( (_StartDisplacement_var.rgb - node_5892) * (_StartNrmDispMinMaxStr.b - _StartNrmDispMinMaxStr.g) ) / (node_5937 - node_5892))*_StartNrmDispMinMaxStr.a*v.normal),((_EndNrmDispMinMaxStr.g + ( (_EndDisplacement_var.rgb - node_5892) * (_EndNrmDispMinMaxStr.b - _EndNrmDispMinMaxStr.g) ) / (node_5937 - node_5892))*_EndNrmDispMinMaxStr.a*v.normal),node_456);
-                }
                 float Tessellation(TessVertex v){
                     return _Tesselation;
                 }
@@ -208,7 +166,6 @@ Shader "Shader Forge/PBRfader" {
                     v.tangent = vi[0].tangent*bary.x + vi[1].tangent*bary.y + vi[2].tangent*bary.z;
                     v.texcoord0 = vi[0].texcoord0*bary.x + vi[1].texcoord0*bary.y + vi[2].texcoord0*bary.z;
                     v.texcoord1 = vi[0].texcoord1*bary.x + vi[1].texcoord1*bary.y + vi[2].texcoord1*bary.z;
-                    displacement(v);
                     VertexOutput o = vert(v);
                     return o;
                 }
@@ -218,13 +175,7 @@ Shader "Shader Forge/PBRfader" {
                 float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
                 float3 _BumpMap_var = UnpackNormal(tex2D(_BumpMap,TRANSFORM_TEX(i.uv0, _BumpMap)));
-                float4 _FadeTex_var = tex2D(_FadeTex,TRANSFORM_TEX(i.uv0, _FadeTex));
-                float node_5892 = 0.0;
-                float node_5937 = 1.0;
-                float4 _FadeNoise_var = tex2D(_FadeNoise,TRANSFORM_TEX(i.uv0, _FadeNoise));
-                float node_456 = saturate(pow(saturate((pow((node_5892 + ( (_FadeTex_var.r - _TexRangeMin) * (node_5937 - node_5892) ) / (_TexRangeMax - _TexRangeMin)),lerp(_FadeNoise_var.r,(_FadeNoise_var.r*20.0+-10.0),round(_FadeNoise_var.r)))+((_Switch*_SwitchSlider)*2.0+-1.0))),_FadePow));
-                float3 _EndBumpMap_var = UnpackNormal(tex2D(_EndBumpMap,TRANSFORM_TEX(i.uv0, _EndBumpMap)));
-                float3 normalLocal = lerp(float3(0.5,0.5,1),normalize(float3(((float2(_BumpMap_var.r,_BumpMap_var.g)*(1.0 - node_456))+(float2(_EndBumpMap_var.r,_EndBumpMap_var.g)*node_456)),(lerp(_BumpMap_var.b,node_5937,node_456)*lerp(node_5937,_EndBumpMap_var.b,node_456)))),lerp(_StartNrmDispMinMaxStr.r,_EndNrmDispMinMaxStr.r,node_456));
+                float3 normalLocal = _BumpMap_var.rgb;
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
                 float3 viewReflectDirection = reflect( -viewDirection, normalDirection );
                 float3 lightDirection = normalize(_WorldSpaceLightPos0.xyz);
@@ -236,10 +187,8 @@ Shader "Shader Forge/PBRfader" {
                 float Pi = 3.141592654;
                 float InvPi = 0.31830988618;
 ///////// Gloss:
-                float4 _StartRoughness_var = tex2D(_StartRoughness,TRANSFORM_TEX(i.uv0, _StartRoughness));
-                float4 _EndRoughness_var = tex2D(_EndRoughness,TRANSFORM_TEX(i.uv0, _EndRoughness));
-                float gloss = 1.0 - lerp((_StartRoughness_var.r*_StartRoughMult),(_EndRoughness_var.r*_EndRoughMult),node_456); // Convert roughness to gloss
-                float perceptualRoughness = lerp((_StartRoughness_var.r*_StartRoughMult),(_EndRoughness_var.r*_EndRoughMult),node_456);
+                float gloss = _Gloss;
+                float perceptualRoughness = 1.0 - _Gloss;
                 float roughness = perceptualRoughness * perceptualRoughness;
                 float specPow = exp2( gloss * 10.0 + 1.0 );
 /////// GI Data:
@@ -284,16 +233,11 @@ Shader "Shader Forge/PBRfader" {
                 lightColor = gi.light.color;
 ////// Specular:
                 float NdotL = saturate(dot( normalDirection, lightDirection ));
-                float4 _StartAO_var = tex2D(_StartAO,TRANSFORM_TEX(i.uv0, _StartAO));
-                float4 _EndAO_var = tex2D(_EndAO,TRANSFORM_TEX(i.uv0, _EndAO));
-                float node_4576 = lerp(_StartAO_var.r,_EndAO_var.r,node_456);
-                float3 specularAO = node_4576;
                 float LdotH = saturate(dot(lightDirection, halfDirection));
-                float3 specularColor = lerp(_StartMetallic,_EndMetallic,node_456);
+                float3 specularColor = _Metallic;
                 float specularMonochrome;
                 float4 _MainTex_var = tex2D(_MainTex,TRANSFORM_TEX(i.uv0, _MainTex));
-                float4 _EndMainTex_var = tex2D(_EndMainTex,TRANSFORM_TEX(i.uv0, _EndMainTex));
-                float3 diffuseColor = lerp((_MainTex_var.rgb*_StartColor.rgb),(_EndMainTex_var.rgb*_EndColor.rgb),node_456); // Need this for specular when using metallic
+                float3 diffuseColor = (_MainTex_var.rgb*_Color.rgb); // Need this for specular when using metallic
                 diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
                 specularMonochrome = 1.0-specularMonochrome;
                 float NdotV = abs(dot( normalDirection, viewDirection ));
@@ -318,7 +262,7 @@ Shader "Shader Forge/PBRfader" {
                 specularPBL *= any(specularColor) ? 1.0 : 0.0;
                 float3 directSpecular = attenColor*specularPBL*FresnelTerm(specularColor, LdotH);
                 half grazingTerm = saturate( gloss + specularMonochrome );
-                float3 indirectSpecular = (gi.indirect.specular) * specularAO;
+                float3 indirectSpecular = (gi.indirect.specular);
                 indirectSpecular *= FresnelLerp (specularColor, grazingTerm, NdotV);
                 indirectSpecular *= surfaceReduction;
                 float3 specular = (directSpecular + indirectSpecular);
@@ -330,10 +274,12 @@ Shader "Shader Forge/PBRfader" {
                 float3 directDiffuse = ((1 +(fd90 - 1)*nlPow5) * (1 + (fd90 - 1)*nvPow5) * NdotL) * attenColor;
                 float3 indirectDiffuse = float3(0,0,0);
                 indirectDiffuse += gi.indirect.diffuse;
-                indirectDiffuse *= node_4576; // Diffuse AO
                 float3 diffuse = (directDiffuse + indirectDiffuse) * diffuseColor;
+////// Emissive:
+                float node_1598 = lerp(0.0,1.0,_node_5915);
+                float3 emissive = float3(node_1598,node_1598,node_1598);
 /// Final Color:
-                float3 finalColor = diffuse + specular;
+                float3 finalColor = diffuse + specular + emissive;
                 fixed4 finalRGBA = fixed4(finalColor,1);
                 UNITY_APPLY_FOG(i.fogCoord, finalRGBA);
                 return finalRGBA;
@@ -367,32 +313,17 @@ Shader "Shader Forge/PBRfader" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d11 
+            #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 5.0
-            uniform float4 _StartColor;
+            uniform float4 _Color;
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
             uniform sampler2D _BumpMap; uniform float4 _BumpMap_ST;
-            uniform float _StartMetallic;
-            uniform sampler2D _StartRoughness; uniform float4 _StartRoughness_ST;
-            uniform float _Switch;
-            uniform float4 _EndColor;
-            uniform sampler2D _EndMainTex; uniform float4 _EndMainTex_ST;
-            uniform sampler2D _EndBumpMap; uniform float4 _EndBumpMap_ST;
-            uniform float _EndMetallic;
-            uniform sampler2D _EndRoughness; uniform float4 _EndRoughness_ST;
-            uniform sampler2D _FadeTex; uniform float4 _FadeTex_ST;
-            uniform float _SwitchSlider;
-            uniform float _FadePow;
-            uniform float _TexRangeMin;
-            uniform float _TexRangeMax;
-            uniform float _StartRoughMult;
-            uniform float _EndRoughMult;
-            uniform sampler2D _EndDisplacement; uniform float4 _EndDisplacement_ST;
+            uniform float _Metallic;
+            uniform float _Gloss;
             uniform float _Tesselation;
-            uniform sampler2D _StartDisplacement; uniform float4 _StartDisplacement_ST;
-            uniform float4 _StartNrmDispMinMaxStr;
-            uniform float4 _EndNrmDispMinMaxStr;
-            uniform sampler2D _FadeNoise; uniform float4 _FadeNoise_ST;
+            uniform sampler2D _Displacement; uniform float4 _Displacement_ST;
+            uniform float _DispStr;
+            uniform float _node_5915;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -421,6 +352,8 @@ Shader "Shader Forge/PBRfader" {
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
                 o.tangentDir = normalize( mul( unity_ObjectToWorld, float4( v.tangent.xyz, 0.0 ) ).xyz );
                 o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
+                float4 _Displacement_var = tex2Dlod(_Displacement,float4(TRANSFORM_TEX(o.uv0, _Displacement),0.0,0));
+                v.vertex.xyz += (_Displacement_var.rgb*v.normal*_DispStr);
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 float3 lightColor = _LightColor0.rgb;
                 o.pos = UnityObjectToClipPos( v.vertex );
@@ -456,16 +389,6 @@ Shader "Shader Forge/PBRfader" {
                     o.texcoord2 = v.texcoord2;
                     return o;
                 }
-                void displacement (inout VertexInput v){
-                    float4 _StartDisplacement_var = tex2Dlod(_StartDisplacement,float4(TRANSFORM_TEX(v.texcoord0, _StartDisplacement),0.0,0));
-                    float node_5892 = 0.0;
-                    float node_5937 = 1.0;
-                    float4 _EndDisplacement_var = tex2Dlod(_EndDisplacement,float4(TRANSFORM_TEX(v.texcoord0, _EndDisplacement),0.0,0));
-                    float4 _FadeTex_var = tex2Dlod(_FadeTex,float4(TRANSFORM_TEX(v.texcoord0, _FadeTex),0.0,0));
-                    float4 _FadeNoise_var = tex2Dlod(_FadeNoise,float4(TRANSFORM_TEX(v.texcoord0, _FadeNoise),0.0,0));
-                    float node_456 = saturate(pow(saturate((pow((node_5892 + ( (_FadeTex_var.r - _TexRangeMin) * (node_5937 - node_5892) ) / (_TexRangeMax - _TexRangeMin)),lerp(_FadeNoise_var.r,(_FadeNoise_var.r*20.0+-10.0),round(_FadeNoise_var.r)))+((_Switch*_SwitchSlider)*2.0+-1.0))),_FadePow));
-                    v.vertex.xyz += lerp(((_StartNrmDispMinMaxStr.g + ( (_StartDisplacement_var.rgb - node_5892) * (_StartNrmDispMinMaxStr.b - _StartNrmDispMinMaxStr.g) ) / (node_5937 - node_5892))*_StartNrmDispMinMaxStr.a*v.normal),((_EndNrmDispMinMaxStr.g + ( (_EndDisplacement_var.rgb - node_5892) * (_EndNrmDispMinMaxStr.b - _EndNrmDispMinMaxStr.g) ) / (node_5937 - node_5892))*_EndNrmDispMinMaxStr.a*v.normal),node_456);
-                }
                 float Tessellation(TessVertex v){
                     return _Tesselation;
                 }
@@ -500,7 +423,6 @@ Shader "Shader Forge/PBRfader" {
                     v.tangent = vi[0].tangent*bary.x + vi[1].tangent*bary.y + vi[2].tangent*bary.z;
                     v.texcoord0 = vi[0].texcoord0*bary.x + vi[1].texcoord0*bary.y + vi[2].texcoord0*bary.z;
                     v.texcoord1 = vi[0].texcoord1*bary.x + vi[1].texcoord1*bary.y + vi[2].texcoord1*bary.z;
-                    displacement(v);
                     VertexOutput o = vert(v);
                     return o;
                 }
@@ -510,13 +432,7 @@ Shader "Shader Forge/PBRfader" {
                 float3x3 tangentTransform = float3x3( i.tangentDir, i.bitangentDir, i.normalDir);
                 float3 viewDirection = normalize(_WorldSpaceCameraPos.xyz - i.posWorld.xyz);
                 float3 _BumpMap_var = UnpackNormal(tex2D(_BumpMap,TRANSFORM_TEX(i.uv0, _BumpMap)));
-                float4 _FadeTex_var = tex2D(_FadeTex,TRANSFORM_TEX(i.uv0, _FadeTex));
-                float node_5892 = 0.0;
-                float node_5937 = 1.0;
-                float4 _FadeNoise_var = tex2D(_FadeNoise,TRANSFORM_TEX(i.uv0, _FadeNoise));
-                float node_456 = saturate(pow(saturate((pow((node_5892 + ( (_FadeTex_var.r - _TexRangeMin) * (node_5937 - node_5892) ) / (_TexRangeMax - _TexRangeMin)),lerp(_FadeNoise_var.r,(_FadeNoise_var.r*20.0+-10.0),round(_FadeNoise_var.r)))+((_Switch*_SwitchSlider)*2.0+-1.0))),_FadePow));
-                float3 _EndBumpMap_var = UnpackNormal(tex2D(_EndBumpMap,TRANSFORM_TEX(i.uv0, _EndBumpMap)));
-                float3 normalLocal = lerp(float3(0.5,0.5,1),normalize(float3(((float2(_BumpMap_var.r,_BumpMap_var.g)*(1.0 - node_456))+(float2(_EndBumpMap_var.r,_EndBumpMap_var.g)*node_456)),(lerp(_BumpMap_var.b,node_5937,node_456)*lerp(node_5937,_EndBumpMap_var.b,node_456)))),lerp(_StartNrmDispMinMaxStr.r,_EndNrmDispMinMaxStr.r,node_456));
+                float3 normalLocal = _BumpMap_var.rgb;
                 float3 normalDirection = normalize(mul( normalLocal, tangentTransform )); // Perturbed normals
                 float3 lightDirection = normalize(lerp(_WorldSpaceLightPos0.xyz, _WorldSpaceLightPos0.xyz - i.posWorld.xyz,_WorldSpaceLightPos0.w));
                 float3 lightColor = _LightColor0.rgb;
@@ -527,20 +443,17 @@ Shader "Shader Forge/PBRfader" {
                 float Pi = 3.141592654;
                 float InvPi = 0.31830988618;
 ///////// Gloss:
-                float4 _StartRoughness_var = tex2D(_StartRoughness,TRANSFORM_TEX(i.uv0, _StartRoughness));
-                float4 _EndRoughness_var = tex2D(_EndRoughness,TRANSFORM_TEX(i.uv0, _EndRoughness));
-                float gloss = 1.0 - lerp((_StartRoughness_var.r*_StartRoughMult),(_EndRoughness_var.r*_EndRoughMult),node_456); // Convert roughness to gloss
-                float perceptualRoughness = lerp((_StartRoughness_var.r*_StartRoughMult),(_EndRoughness_var.r*_EndRoughMult),node_456);
+                float gloss = _Gloss;
+                float perceptualRoughness = 1.0 - _Gloss;
                 float roughness = perceptualRoughness * perceptualRoughness;
                 float specPow = exp2( gloss * 10.0 + 1.0 );
 ////// Specular:
                 float NdotL = saturate(dot( normalDirection, lightDirection ));
                 float LdotH = saturate(dot(lightDirection, halfDirection));
-                float3 specularColor = lerp(_StartMetallic,_EndMetallic,node_456);
+                float3 specularColor = _Metallic;
                 float specularMonochrome;
                 float4 _MainTex_var = tex2D(_MainTex,TRANSFORM_TEX(i.uv0, _MainTex));
-                float4 _EndMainTex_var = tex2D(_EndMainTex,TRANSFORM_TEX(i.uv0, _EndMainTex));
-                float3 diffuseColor = lerp((_MainTex_var.rgb*_StartColor.rgb),(_EndMainTex_var.rgb*_EndColor.rgb),node_456); // Need this for specular when using metallic
+                float3 diffuseColor = (_MainTex_var.rgb*_Color.rgb); // Need this for specular when using metallic
                 diffuseColor = DiffuseAndSpecularFromMetallic( diffuseColor, specularColor, specularColor, specularMonochrome );
                 specularMonochrome = 1.0-specularMonochrome;
                 float NdotV = abs(dot( normalDirection, viewDirection ));
@@ -601,20 +514,11 @@ Shader "Shader Forge/PBRfader" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d11 
+            #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 5.0
-            uniform float _Switch;
-            uniform sampler2D _FadeTex; uniform float4 _FadeTex_ST;
-            uniform float _SwitchSlider;
-            uniform float _FadePow;
-            uniform float _TexRangeMin;
-            uniform float _TexRangeMax;
-            uniform sampler2D _EndDisplacement; uniform float4 _EndDisplacement_ST;
             uniform float _Tesselation;
-            uniform sampler2D _StartDisplacement; uniform float4 _StartDisplacement_ST;
-            uniform float4 _StartNrmDispMinMaxStr;
-            uniform float4 _EndNrmDispMinMaxStr;
-            uniform sampler2D _FadeNoise; uniform float4 _FadeNoise_ST;
+            uniform sampler2D _Displacement; uniform float4 _Displacement_ST;
+            uniform float _DispStr;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -637,6 +541,8 @@ Shader "Shader Forge/PBRfader" {
                 o.uv1 = v.texcoord1;
                 o.uv2 = v.texcoord2;
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
+                float4 _Displacement_var = tex2Dlod(_Displacement,float4(TRANSFORM_TEX(o.uv0, _Displacement),0.0,0));
+                v.vertex.xyz += (_Displacement_var.rgb*v.normal*_DispStr);
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 o.pos = UnityObjectToClipPos( v.vertex );
                 TRANSFER_SHADOW_CASTER(o)
@@ -669,16 +575,6 @@ Shader "Shader Forge/PBRfader" {
                     o.texcoord1 = v.texcoord1;
                     o.texcoord2 = v.texcoord2;
                     return o;
-                }
-                void displacement (inout VertexInput v){
-                    float4 _StartDisplacement_var = tex2Dlod(_StartDisplacement,float4(TRANSFORM_TEX(v.texcoord0, _StartDisplacement),0.0,0));
-                    float node_5892 = 0.0;
-                    float node_5937 = 1.0;
-                    float4 _EndDisplacement_var = tex2Dlod(_EndDisplacement,float4(TRANSFORM_TEX(v.texcoord0, _EndDisplacement),0.0,0));
-                    float4 _FadeTex_var = tex2Dlod(_FadeTex,float4(TRANSFORM_TEX(v.texcoord0, _FadeTex),0.0,0));
-                    float4 _FadeNoise_var = tex2Dlod(_FadeNoise,float4(TRANSFORM_TEX(v.texcoord0, _FadeNoise),0.0,0));
-                    float node_456 = saturate(pow(saturate((pow((node_5892 + ( (_FadeTex_var.r - _TexRangeMin) * (node_5937 - node_5892) ) / (_TexRangeMax - _TexRangeMin)),lerp(_FadeNoise_var.r,(_FadeNoise_var.r*20.0+-10.0),round(_FadeNoise_var.r)))+((_Switch*_SwitchSlider)*2.0+-1.0))),_FadePow));
-                    v.vertex.xyz += lerp(((_StartNrmDispMinMaxStr.g + ( (_StartDisplacement_var.rgb - node_5892) * (_StartNrmDispMinMaxStr.b - _StartNrmDispMinMaxStr.g) ) / (node_5937 - node_5892))*_StartNrmDispMinMaxStr.a*v.normal),((_EndNrmDispMinMaxStr.g + ( (_EndDisplacement_var.rgb - node_5892) * (_EndNrmDispMinMaxStr.b - _EndNrmDispMinMaxStr.g) ) / (node_5937 - node_5892))*_EndNrmDispMinMaxStr.a*v.normal),node_456);
                 }
                 float Tessellation(TessVertex v){
                     return _Tesselation;
@@ -714,7 +610,6 @@ Shader "Shader Forge/PBRfader" {
                     v.tangent = vi[0].tangent*bary.x + vi[1].tangent*bary.y + vi[2].tangent*bary.z;
                     v.texcoord0 = vi[0].texcoord0*bary.x + vi[1].texcoord0*bary.y + vi[2].texcoord0*bary.z;
                     v.texcoord1 = vi[0].texcoord1*bary.x + vi[1].texcoord1*bary.y + vi[2].texcoord1*bary.z;
-                    displacement(v);
                     VertexOutput o = vert(v);
                     return o;
                 }
@@ -754,30 +649,16 @@ Shader "Shader Forge/PBRfader" {
             #pragma multi_compile DIRLIGHTMAP_OFF DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
             #pragma multi_compile DYNAMICLIGHTMAP_OFF DYNAMICLIGHTMAP_ON
             #pragma multi_compile_fog
-            #pragma only_renderers d3d11 
+            #pragma only_renderers d3d9 d3d11 glcore gles 
             #pragma target 5.0
-            uniform float4 _StartColor;
+            uniform float4 _Color;
             uniform sampler2D _MainTex; uniform float4 _MainTex_ST;
-            uniform float _StartMetallic;
-            uniform sampler2D _StartRoughness; uniform float4 _StartRoughness_ST;
-            uniform float _Switch;
-            uniform float4 _EndColor;
-            uniform sampler2D _EndMainTex; uniform float4 _EndMainTex_ST;
-            uniform float _EndMetallic;
-            uniform sampler2D _EndRoughness; uniform float4 _EndRoughness_ST;
-            uniform sampler2D _FadeTex; uniform float4 _FadeTex_ST;
-            uniform float _SwitchSlider;
-            uniform float _FadePow;
-            uniform float _TexRangeMin;
-            uniform float _TexRangeMax;
-            uniform float _StartRoughMult;
-            uniform float _EndRoughMult;
-            uniform sampler2D _EndDisplacement; uniform float4 _EndDisplacement_ST;
+            uniform float _Metallic;
+            uniform float _Gloss;
             uniform float _Tesselation;
-            uniform sampler2D _StartDisplacement; uniform float4 _StartDisplacement_ST;
-            uniform float4 _StartNrmDispMinMaxStr;
-            uniform float4 _EndNrmDispMinMaxStr;
-            uniform sampler2D _FadeNoise; uniform float4 _FadeNoise_ST;
+            uniform sampler2D _Displacement; uniform float4 _Displacement_ST;
+            uniform float _DispStr;
+            uniform float _node_5915;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -800,6 +681,8 @@ Shader "Shader Forge/PBRfader" {
                 o.uv1 = v.texcoord1;
                 o.uv2 = v.texcoord2;
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
+                float4 _Displacement_var = tex2Dlod(_Displacement,float4(TRANSFORM_TEX(o.uv0, _Displacement),0.0,0));
+                v.vertex.xyz += (_Displacement_var.rgb*v.normal*_DispStr);
                 o.posWorld = mul(unity_ObjectToWorld, v.vertex);
                 o.pos = UnityMetaVertexPosition(v.vertex, v.texcoord1.xy, v.texcoord2.xy, unity_LightmapST, unity_DynamicLightmapST );
                 return o;
@@ -831,16 +714,6 @@ Shader "Shader Forge/PBRfader" {
                     o.texcoord1 = v.texcoord1;
                     o.texcoord2 = v.texcoord2;
                     return o;
-                }
-                void displacement (inout VertexInput v){
-                    float4 _StartDisplacement_var = tex2Dlod(_StartDisplacement,float4(TRANSFORM_TEX(v.texcoord0, _StartDisplacement),0.0,0));
-                    float node_5892 = 0.0;
-                    float node_5937 = 1.0;
-                    float4 _EndDisplacement_var = tex2Dlod(_EndDisplacement,float4(TRANSFORM_TEX(v.texcoord0, _EndDisplacement),0.0,0));
-                    float4 _FadeTex_var = tex2Dlod(_FadeTex,float4(TRANSFORM_TEX(v.texcoord0, _FadeTex),0.0,0));
-                    float4 _FadeNoise_var = tex2Dlod(_FadeNoise,float4(TRANSFORM_TEX(v.texcoord0, _FadeNoise),0.0,0));
-                    float node_456 = saturate(pow(saturate((pow((node_5892 + ( (_FadeTex_var.r - _TexRangeMin) * (node_5937 - node_5892) ) / (_TexRangeMax - _TexRangeMin)),lerp(_FadeNoise_var.r,(_FadeNoise_var.r*20.0+-10.0),round(_FadeNoise_var.r)))+((_Switch*_SwitchSlider)*2.0+-1.0))),_FadePow));
-                    v.vertex.xyz += lerp(((_StartNrmDispMinMaxStr.g + ( (_StartDisplacement_var.rgb - node_5892) * (_StartNrmDispMinMaxStr.b - _StartNrmDispMinMaxStr.g) ) / (node_5937 - node_5892))*_StartNrmDispMinMaxStr.a*v.normal),((_EndNrmDispMinMaxStr.g + ( (_EndDisplacement_var.rgb - node_5892) * (_EndNrmDispMinMaxStr.b - _EndNrmDispMinMaxStr.g) ) / (node_5937 - node_5892))*_EndNrmDispMinMaxStr.a*v.normal),node_456);
                 }
                 float Tessellation(TessVertex v){
                     return _Tesselation;
@@ -876,7 +749,6 @@ Shader "Shader Forge/PBRfader" {
                     v.tangent = vi[0].tangent*bary.x + vi[1].tangent*bary.y + vi[2].tangent*bary.z;
                     v.texcoord0 = vi[0].texcoord0*bary.x + vi[1].texcoord0*bary.y + vi[2].texcoord0*bary.z;
                     v.texcoord1 = vi[0].texcoord1*bary.x + vi[1].texcoord1*bary.y + vi[2].texcoord1*bary.z;
-                    displacement(v);
                     VertexOutput o = vert(v);
                     return o;
                 }
@@ -888,22 +760,15 @@ Shader "Shader Forge/PBRfader" {
                 UnityMetaInput o;
                 UNITY_INITIALIZE_OUTPUT( UnityMetaInput, o );
                 
-                o.Emission = 0;
+                float node_1598 = lerp(0.0,1.0,_node_5915);
+                o.Emission = float3(node_1598,node_1598,node_1598);
                 
                 float4 _MainTex_var = tex2D(_MainTex,TRANSFORM_TEX(i.uv0, _MainTex));
-                float4 _EndMainTex_var = tex2D(_EndMainTex,TRANSFORM_TEX(i.uv0, _EndMainTex));
-                float4 _FadeTex_var = tex2D(_FadeTex,TRANSFORM_TEX(i.uv0, _FadeTex));
-                float node_5892 = 0.0;
-                float node_5937 = 1.0;
-                float4 _FadeNoise_var = tex2D(_FadeNoise,TRANSFORM_TEX(i.uv0, _FadeNoise));
-                float node_456 = saturate(pow(saturate((pow((node_5892 + ( (_FadeTex_var.r - _TexRangeMin) * (node_5937 - node_5892) ) / (_TexRangeMax - _TexRangeMin)),lerp(_FadeNoise_var.r,(_FadeNoise_var.r*20.0+-10.0),round(_FadeNoise_var.r)))+((_Switch*_SwitchSlider)*2.0+-1.0))),_FadePow));
-                float3 diffColor = lerp((_MainTex_var.rgb*_StartColor.rgb),(_EndMainTex_var.rgb*_EndColor.rgb),node_456);
+                float3 diffColor = (_MainTex_var.rgb*_Color.rgb);
                 float specularMonochrome;
                 float3 specColor;
-                diffColor = DiffuseAndSpecularFromMetallic( diffColor, lerp(_StartMetallic,_EndMetallic,node_456), specColor, specularMonochrome );
-                float4 _StartRoughness_var = tex2D(_StartRoughness,TRANSFORM_TEX(i.uv0, _StartRoughness));
-                float4 _EndRoughness_var = tex2D(_EndRoughness,TRANSFORM_TEX(i.uv0, _EndRoughness));
-                float roughness = lerp((_StartRoughness_var.r*_StartRoughMult),(_EndRoughness_var.r*_EndRoughMult),node_456);
+                diffColor = DiffuseAndSpecularFromMetallic( diffColor, _Metallic, specColor, specularMonochrome );
+                float roughness = 1.0 - _Gloss;
                 o.Albedo = diffColor + specColor * roughness * roughness * 0.5;
                 
                 return UnityMetaFragment( o );

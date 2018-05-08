@@ -9,10 +9,6 @@ ShaderImporter:
   - _BumpMap: {fileID: 2800000, guid: ff05e3313f373404b9a735c3151d74a2, type: 3}
   - _StartRoughness: {fileID: 2800000, guid: 036cd497b8b9905479efd06dfb554913, type: 3}
   - _StartAO: {fileID: 2800000, guid: 15ac98ec8bd1ac542ae816baf78271bf, type: 3}
-  - _EndMainTex: {fileID: 2800000, guid: e0bf51e24d381854a99d4bae8d76192b, type: 3}
-  - _EndBumpMap: {fileID: 2800000, guid: 248c29971396ea5429c23c7530980dc1, type: 3}
-  - _EndRoughness: {fileID: 2800000, guid: 4683c0c124c66044cbd9c4942f1f658f, type: 3}
-  - _EndAO: {fileID: 2800000, guid: 804bf535672c1fc488933943729a87a5, type: 3}
   - _FadeTex: {fileID: 2800000, guid: 3348ee9eb48c25a4baf2ccafd576ee72, type: 3}
   userData: 
   assetBundleName: 

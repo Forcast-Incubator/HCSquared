@@ -47,7 +47,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndDisplacement:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 9bac9adccb111304f8944f44f5e611f2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndMainTex:
@@ -57,6 +57,10 @@ Material:
     - _EndRoughness:
         m_Texture: {fileID: 2800000, guid: 924e40d003f82c34d9dd1ce06c701ba8, type: 3}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeNoise:
+        m_Texture: {fileID: 2800000, guid: a5595c16d37370e42b68130931031cef, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
         m_Texture: {fileID: 2800000, guid: 1b5a84a4e168b6b46af7882408785d4b, type: 3}
@@ -83,7 +87,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StartDisplacement:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c73ebb2bae20d1d41afebc13fb003a17, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StartRoughness:
@@ -116,13 +120,16 @@ Material:
     - _StartRoughMult: 1
     - _StartTesselation: 1
     - _Switch: 1
-    - _SwitchSlider: 1
-    - _TexRangeMax: 0.6
-    - _TexRangeMin: 1.31
+    - _SwitchSlider: 0
+    - _Tesselation: 8
+    - _TexRangeMax: 0
+    - _TexRangeMin: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EndNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.19}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StartNrmDispMinMaxStr: {r: 0.58, g: -0.1, b: 0.9, a: 0.12}
