@@ -19,6 +19,8 @@ public class GrowthRoot : MonoBehaviour {
     public int seed;
     private int numSegmentsPrevious = 0;
 
+    private float growthProgressionCache = 0;
+
     [Range(0,1)]
     public float growthProgression = 0;
 
@@ -34,6 +36,8 @@ public class GrowthRoot : MonoBehaviour {
 
     void FillPrefabList()
     {
+        growthProgressionCache = growthProgression;
+        growthProgression = 1;
         if (numSegmentsPrevious > numSegments)
         {
             for (int i = numSegmentsPrevious-1; i >= numSegments; i--)
@@ -57,8 +61,8 @@ public class GrowthRoot : MonoBehaviour {
         {
             float segmentPercentage = i / (float)numSegments;
 
-            prefabList[i].gameObject.transform.position = transform.position + transform.up * segmentPercentage * stemLength + growthForces * i;
-            prefabList[i].gameObject.transform.localRotation = Quaternion.Euler(0 + growthForces.x * i, i * (segmentRotationOffset + prefabList[i].rotationOffset) + growthForces.y * i, 0 + growthForces.z * i);
+            prefabList[i].gameObject.transform.position = transform.position + transform.up * segmentPercentage * stemLength;
+            prefabList[i].gameObject.transform.localRotation = Quaternion.Euler(0, i * (segmentRotationOffset + prefabList[i].rotationOffset), 0);
             //prefabList[i].gameObject.transform.rotation = Quaternion.AngleAxis(i * (segmentRotationOffset + prefabList[i].rotationOffset), transform.ro);
             prefabList[i].gameObject.transform.localScale = segmentScale * Mathf.Clamp01(stemShape.Evaluate(segmentPercentage) * (growthProgression - segmentPercentage));
 
@@ -74,6 +78,8 @@ public class GrowthRoot : MonoBehaviour {
                 hj.connectedBody = prefabList[i - 1].rb;
             }
         }
+
+        growthProgression = growthProgressionCache;
     }
 
 	// Update is called once per frame
@@ -85,8 +91,20 @@ public class GrowthRoot : MonoBehaviour {
         for (int i = 0; i < numSegments; i++)
         {
             float segmentPercentage = i / (float)numSegments;
-            prefabList[i].gameObject.transform.localScale = segmentScale * Mathf.Clamp01(stemShape.Evaluate(segmentPercentage) * (growthProgression - segmentPercentage));
-            prefabList[i].rb.mass = Mathf.Clamp(stemShape.Evaluate(segmentPercentage) * (growthProgression - segmentPercentage), 0.1f, 1.0f);
+            float segmentSizeFromCurve = stemShape.Evaluate(segmentPercentage) * Mathf.Clamp01(growthProgression / (segmentPercentage + 0.05f));
+            prefabList[i].gameObject.transform.localScale = segmentScale * segmentSizeFromCurve;
+            prefabList[i].rb.mass = Mathf.Clamp(segmentSizeFromCurve, 0.1f, 1.0f);
+
+            /*if (waitAmount > waitCounter)
+            {
+                prefabList[i].cf.force = Vector3.zero;
+                waitCounter += Time.deltaTime;
+            }
+            else
+            {
+                prefabList[i].cf.force = growthForces;
+            }
+            */
             prefabList[i].cf.force = growthForces;
         }
     }
