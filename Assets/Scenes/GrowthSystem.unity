@@ -426,3 +426,252 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1497545293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1497545296}
+  - component: {fileID: 1497545295}
+  - component: {fileID: 1497545294}
+  m_Layer: 0
+  m_Name: GrowthRoot (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1497545294
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497545293}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1497545295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497545293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stemPrefab: {fileID: 1401058460005360, guid: cb7462700e3eb4c4c80aa06143f5d914, type: 2}
+  stemLength: 2
+  numSegments: 60
+  segmentScale: {x: 3, y: 3, z: 3}
+  growthForces: {x: 0, y: 3, z: 0}
+  segmentRotationOffset: 55
+  segmentRotationOffsetRandom: {x: 0, y: 3}
+  stemShape:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  seed: 0
+  growthProgression: 0.443
+--- !u!4 &1497545296
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1497545293}
+  m_LocalRotation: {x: -0.21624698, y: 0.6991969, z: -0.19606574, w: 0.6526248}
+  m_LocalPosition: {x: -1.32, y: -0.01, z: 0.09}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -0.46300003, y: 94.088005, z: -33.941}
+--- !u!1 &1659690801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1659690804}
+  - component: {fileID: 1659690803}
+  - component: {fileID: 1659690802}
+  m_Layer: 0
+  m_Name: GrowthRoot (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1659690802
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1659690801}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1659690803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1659690801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stemPrefab: {fileID: 1401058460005360, guid: cb7462700e3eb4c4c80aa06143f5d914, type: 2}
+  stemLength: 1
+  numSegments: 20
+  segmentScale: {x: 3, y: 2, z: 3}
+  growthForces: {x: 0, y: 3, z: 0}
+  segmentRotationOffset: 55
+  segmentRotationOffsetRandom: {x: 0, y: 3}
+  stemShape:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  seed: 0
+  growthProgression: 0.443
+--- !u!4 &1659690804
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1659690801}
+  m_LocalRotation: {x: 0.6577297, y: 0.30903637, z: 0.6237729, w: 0.28774208}
+  m_LocalPosition: {x: 1.2, y: 0.5, z: 0.65}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: -0.402, y: 93.22301, z: 130.04701}
+--- !u!1 &1879214461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1879214464}
+  - component: {fileID: 1879214463}
+  - component: {fileID: 1879214462}
+  m_Layer: 0
+  m_Name: GrowthRoot (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1879214462
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1879214461}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1879214463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1879214461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stemPrefab: {fileID: 1401058460005360, guid: cb7462700e3eb4c4c80aa06143f5d914, type: 2}
+  stemLength: 3
+  numSegments: 60
+  segmentScale: {x: 3, y: 3, z: 3}
+  growthForces: {x: 0, y: 3, z: 0}
+  segmentRotationOffset: 55
+  segmentRotationOffsetRandom: {x: 0, y: 3}
+  stemShape:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: -1
+      outSlope: -1
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  seed: 0
+  growthProgression: 0.443
+--- !u!4 &1879214464
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1879214461}
+  m_LocalRotation: {x: -0.21624698, y: 0.6991969, z: -0.19606574, w: 0.6526248}
+  m_LocalPosition: {x: -0.359, y: -0.565, z: -0.818}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: -0.46300003, y: 94.088005, z: -33.941}
