@@ -132,4 +132,4 @@ Material:
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
     - _EndNrmDispMinMaxStr: {r: 1, g: -0.1, b: 0.9, a: 0.12}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
-    - _StartNrmDispMinMaxStr: {r: 1, g: 0, b: 1, a: 0.1}
+    - _StartNrmDispMinMaxStr: {r: 1, g: -0.5, b: 0.5, a: 0.1}
