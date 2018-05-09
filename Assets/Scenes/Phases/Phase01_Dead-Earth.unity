@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.2698435, g: 0.26444244, b: 0.2860541, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -51,8 +51,8 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 0
-    m_EnableRealtimeLightmaps: 1
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 9
     m_Resolution: 2
@@ -589,7 +589,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 156479120
+  randomSeed: 55208824
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -985,7 +985,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 5000
+    maxNumParticles: 3000
     size3D: 0
     rotation3D: 1
     gravityModifier:
@@ -1149,7 +1149,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 500
+      scalar: 200
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -3908,7 +3908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1926346652}
-  speed: 0
+  speed: 0.001
 --- !u!1 &305140735
 GameObject:
   m_ObjectHideFlags: 0
@@ -4560,14 +4560,14 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -496901338
+  randomSeed: 490869890
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 6.04
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5120,7 +5120,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 50
+      scalar: 31.39
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5832,7 +5832,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
   ForceModule:
-    enabled: 1
+    enabled: 0
     x:
       serializedVersion: 2
       minMaxState: 3
@@ -7182,7 +7182,7 @@ ParticleSystem:
     lifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.23
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -7220,7 +7220,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    minVertexDistance: 0.2
+    minVertexDistance: 0.05
     textureMode: 0
     ribbonCount: 1
     worldSpace: 0
@@ -7949,7 +7949,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.61
   m_Range: 50
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -11728,7 +11728,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1079141513
 Transform:
   m_ObjectHideFlags: 0
@@ -11751,8 +11751,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 1, g: 0.9709939, b: 0.8088235, a: 1}
-  m_Intensity: 1.84
+  m_Color: {r: 0.43382353, g: 0.78914815, b: 1, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 50
   m_CookieSize: 10
@@ -11845,8 +11845,8 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 0
-  m_Color: {r: 0.9985801, g: 1, b: 0.89705884, a: 1}
-  m_Intensity: 1.34
+  m_Color: {r: 0.66176474, g: 0.77606493, b: 1, a: 1}
+  m_Intensity: 2.44
   m_Range: 10
   m_SpotAngle: 78.7
   m_CookieSize: 10
@@ -11995,7 +11995,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1222176118
 Transform:
   m_ObjectHideFlags: 0
@@ -12123,14 +12123,14 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 86203855
+  randomSeed: -1893297852
   InitialModule:
     serializedVersion: 3
     enabled: 1
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -12171,8 +12171,8 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.5
-      minScalar: 0.2
+      scalar: 0.2
+      minScalar: 0.1
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -12275,7 +12275,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0.05
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -12588,7 +12588,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.55
+      value: 0.1
       mode: 0
       spread: 0
       speed:
@@ -12683,7 +12683,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 200
+      scalar: 50
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -15438,7 +15438,7 @@ SphereCollider:
   m_GameObject: {fileID: 1222176117}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -19778,7 +19778,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1752240167}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
@@ -19790,7 +19790,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1752240167}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66efefe7a19634a6ab54f7307641134a, type: 3}
   m_Name: 
@@ -26899,7 +26899,7 @@ Transform:
   m_GameObject: {fileID: 1926346651}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 2.1369998, z: 1.5}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 949255742}
   m_Father: {fileID: 1268850783}
@@ -26916,11 +26916,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62fb19ba407d8174e93007d13b079a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _triangleCount: 5000
+  _triangleCount: 4000
   _triangleExtent: 0.3
   _shuffleSpeed: 0
-  _noiseAmplitude: 0.2
-  _noiseFrequency: 0.3
+  _noiseAmplitude: -0.5
+  _noiseFrequency: 0.2
   _noiseMotion: {x: 0.3, y: 0.3, z: 0.3}
   _material: {fileID: 2100000, guid: 57cc49131a0f3684e9125039fcad8f69, type: 2}
   _compute: {fileID: 7200000, guid: 71ae9119da7452b4a846d0ceb2d6aea9, type: 3}
@@ -26968,7 +26968,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1978204541
 Transform:
   m_ObjectHideFlags: 0
@@ -26976,7 +26976,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1978204540}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.06, y: 2.43, z: 5.35}
+  m_LocalPosition: {x: -0.14, y: 0.83, z: 2.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 684507760}
@@ -26994,7 +26994,7 @@ ReflectionProbe:
   m_Mode: 1
   m_RefreshMode: 1
   m_TimeSlicingMode: 1
-  m_Resolution: 128
+  m_Resolution: 256
   m_UpdateFrequency: 0
   m_BoxSize: {x: 10, y: 10, z: 10}
   m_BoxOffset: {x: 0, y: 0, z: 0}
@@ -27266,7 +27266,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2106833777
 Transform:
   m_ObjectHideFlags: 0
@@ -27290,7 +27290,7 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 0.9520284, g: 0.9191176, b: 1, a: 1}
-  m_Intensity: 1.84
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 50
   m_CookieSize: 10
