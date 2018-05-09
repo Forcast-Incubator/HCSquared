@@ -120,7 +120,7 @@ Material:
     - _StartRoughMult: 1
     - _Switch: 1
     - _SwitchSlider: 0
-    - _Tesselation: 6.88
+    - _Tesselation: 1
     - _TexRangeMax: 0
     - _TexRangeMin: 1.25
     - _UVSec: 0
