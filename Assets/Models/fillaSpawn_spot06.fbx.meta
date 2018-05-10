@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 56c8a0f4ebcc384409b6f397846246ab
-timeCreated: 1525773460
+guid: c4c28a1e2b3442e43861a007a546431d
+timeCreated: 1525983527
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -10,8 +10,7 @@ ModelImporter:
     2100000: RS_Earth
     2300000: //RootNode
     3300000: //RootNode
-    4300000: polyreduce1
-    4300002: group7
+    4300000: blast3
   externalObjects: {}
   materials:
     importMaterials: 0
@@ -67,7 +66,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
