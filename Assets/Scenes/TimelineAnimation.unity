@@ -534,7 +534,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 1721212679
+  randomSeed: -1374584972
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3914,6 +3914,10 @@ Prefab:
       propertyPath: m_Name
       value: SteamSpray4
       objectReference: {fileID: 0}
+    - target: {fileID: 1469211279581816, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}
   m_IsPrefabParent: 0
@@ -3964,6 +3968,15 @@ Prefab:
     - target: {fileID: 1469211279581816, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}
       propertyPath: m_Name
       value: SteamSpray3
+      objectReference: {fileID: 0}
+    - target: {fileID: 198062596808988874, guid: f3c9a0b902783cb44a6e9fda3f1090a0,
+        type: 2}
+      propertyPath: randomSeed
+      value: -570107694
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469211279581816, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}
@@ -8174,6 +8187,15 @@ Prefab:
       propertyPath: m_Name
       value: SteamSpray2
       objectReference: {fileID: 0}
+    - target: {fileID: 198062596808988874, guid: f3c9a0b902783cb44a6e9fda3f1090a0,
+        type: 2}
+      propertyPath: randomSeed
+      value: 112071752
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469211279581816, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}
   m_IsPrefabParent: 0
@@ -8683,35 +8705,6 @@ Prefab:
     - target: {fileID: 1469211279581816, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}
       propertyPath: m_Name
       value: SteamSpray1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1469211279581816, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198062596808988874, guid: f3c9a0b902783cb44a6e9fda3f1090a0,
-        type: 2}
-      propertyPath: TrailModule.widthOverTrail.minMaxState
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 198062596808988874, guid: f3c9a0b902783cb44a6e9fda3f1090a0,
-        type: 2}
-      propertyPath: TrailModule.widthOverTrail.maxCurve.m_Curve.Array.data[1].value
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198062596808988874, guid: f3c9a0b902783cb44a6e9fda3f1090a0,
-        type: 2}
-      propertyPath: TrailModule.widthOverTrail.maxCurve.m_RotationOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 198062596808988874, guid: f3c9a0b902783cb44a6e9fda3f1090a0,
-        type: 2}
-      propertyPath: TrailModule.lifetime.scalar
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 198062596808988874, guid: f3c9a0b902783cb44a6e9fda3f1090a0,
-        type: 2}
-      propertyPath: randomSeed
-      value: -1138339534
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3c9a0b902783cb44a6e9fda3f1090a0, type: 2}

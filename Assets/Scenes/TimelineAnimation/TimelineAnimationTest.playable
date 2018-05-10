@@ -53,13 +53,13 @@ AnimationClip:
         outSlope: -0.2849018
         tangentMode: 0
       - serializedVersion: 2
-        time: 3.1
+        time: 1.5
         value: 100
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 3.3666666
+        time: 1.7666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -92,7 +92,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 3.3666666
+    m_StopTime: 1.7666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -124,13 +124,13 @@ AnimationClip:
         outSlope: -0.2849018
         tangentMode: 0
       - serializedVersion: 2
-        time: 3.1
+        time: 1.5
         value: 100
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 3.3666666
+        time: 1.7666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -179,13 +179,13 @@ AnimationClip:
         outSlope: -0.2849018
         tangentMode: 0
       - serializedVersion: 2
-        time: 3.0333333
+        time: 1.5
         value: 100
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 3.3
+        time: 1.7666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -218,7 +218,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 3.3
+    m_StopTime: 1.7666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -250,13 +250,13 @@ AnimationClip:
         outSlope: -0.2849018
         tangentMode: 0
       - serializedVersion: 2
-        time: 3.0333333
+        time: 1.5
         value: 100
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 3.3
+        time: 1.7666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -387,6 +387,108 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 1
   m_Events: []
+--- !u!74 &74107826290496594
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Recorded (14)
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 25.033333
+        value: 1
+        inSlope: 0.121088795
+        outSlope: 0.121088795
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: InitialModule.startColor.maxColor.a
+    path: 
+    classID: 198
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 2007035361
+      script: {fileID: 0}
+      typeID: 198
+      customType: 27
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 25.033333
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 25.033333
+        value: 1
+        inSlope: 0.121088795
+        outSlope: 0.121088795
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: InitialModule.startColor.maxColor.a
+    path: 
+    classID: 198
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 1
+  m_Events: []
 --- !u!74 &74139975342426378
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -419,13 +521,13 @@ AnimationClip:
         outSlope: -0.2849018
         tangentMode: 0
       - serializedVersion: 2
-        time: 2.85
+        time: 1.5
         value: 100
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 3.1166666
+        time: 1.7666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -458,7 +560,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 3.1166666
+    m_StopTime: 1.7666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -490,13 +592,13 @@ AnimationClip:
         outSlope: -0.2849018
         tangentMode: 0
       - serializedVersion: 2
-        time: 2.85
+        time: 1.5
         value: 100
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 3.1166666
+        time: 1.7666667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -505,108 +607,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: EmissionModule.rateOverTime.scalar
-    path: 
-    classID: 198
-    script: {fileID: 0}
-  m_EulerEditorCurves: []
-  m_HasGenericRootTransform: 0
-  m_HasMotionFloatCurves: 0
-  m_GenerateMotionCurves: 1
-  m_Events: []
---- !u!74 &74176690777352564
-AnimationClip:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Recorded (11)
-  serializedVersion: 6
-  m_Legacy: 0
-  m_Compressed: 0
-  m_UseHighQualityCurve: 1
-  m_RotationCurves: []
-  m_CompressedRotationCurves: []
-  m_EulerCurves: []
-  m_PositionCurves: []
-  m_ScaleCurves: []
-  m_FloatCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 13.733337
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: InitialModule.startColor.maxColor.a
-    path: 
-    classID: 198
-    script: {fileID: 0}
-  m_PPtrCurves: []
-  m_SampleRate: 60
-  m_WrapMode: 0
-  m_Bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_ClipBindingConstant:
-    genericBindings:
-    - serializedVersion: 2
-      path: 0
-      attribute: 2007035361
-      script: {fileID: 0}
-      typeID: 198
-      customType: 27
-      isPPtrCurve: 0
-    pptrCurveMapping: []
-  m_AnimationClipSettings:
-    serializedVersion: 2
-    m_AdditiveReferencePoseClip: {fileID: 0}
-    m_AdditiveReferencePoseTime: 0
-    m_StartTime: 0
-    m_StopTime: 13.733337
-    m_OrientationOffsetY: 0
-    m_Level: 0
-    m_CycleOffset: 0
-    m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
-    m_LoopBlend: 0
-    m_LoopBlendOrientation: 0
-    m_LoopBlendPositionY: 0
-    m_LoopBlendPositionXZ: 0
-    m_KeepOriginalOrientation: 0
-    m_KeepOriginalPositionY: 1
-    m_KeepOriginalPositionXZ: 0
-    m_HeightFromFeet: 0
-    m_Mirror: 0
-  m_EditorCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 13.733337
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: InitialModule.startColor.maxColor.a
     path: 
     classID: 198
     script: {fileID: 0}
@@ -1213,6 +1213,108 @@ AnimationClip:
     path: 
     classID: 114
     script: {fileID: 11500000, guid: 62fb19ba407d8174e93007d13b079a28, type: 3}
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 1
+  m_Events: []
+--- !u!74 &74260962085915970
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Recorded (12)
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 25.033333
+        value: 1
+        inSlope: 0.121088795
+        outSlope: 0.121088795
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: InitialModule.startColor.maxColor.a
+    path: 
+    classID: 198
+    script: {fileID: 0}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 2007035361
+      script: {fileID: 0}
+      typeID: 198
+      customType: 27
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 25.033333
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 25.033333
+        value: 1
+        inSlope: 0.121088795
+        outSlope: 0.121088795
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: InitialModule.startColor.maxColor.a
+    path: 
+    classID: 198
+    script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
@@ -2018,12 +2120,12 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 1
   m_Events: []
---- !u!74 &74344619821762864
+--- !u!74 &74403051699212214
 AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Recorded (13)
+  m_Name: Recorded (11)
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -2044,11 +2146,11 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 13.733337
+        time: 25.033333
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        inSlope: 0.121088795
+        outSlope: 0.121088795
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -2077,7 +2179,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 13.733337
+    m_StopTime: 25.033333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -2103,11 +2205,11 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 13.733337
+        time: 25.033333
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        inSlope: 0.121088795
+        outSlope: 0.121088795
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3148,11 +3250,11 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 13.733337
+        time: 25.033333
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        inSlope: 0.121088795
+        outSlope: 0.121088795
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3181,7 +3283,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 13.733337
+    m_StopTime: 25.033333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -3207,113 +3309,11 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 13.733337
+        time: 25.033333
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: InitialModule.startColor.maxColor.a
-    path: 
-    classID: 198
-    script: {fileID: 0}
-  m_EulerEditorCurves: []
-  m_HasGenericRootTransform: 0
-  m_HasMotionFloatCurves: 0
-  m_GenerateMotionCurves: 1
-  m_Events: []
---- !u!74 &74821330110453268
-AnimationClip:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: Recorded (12)
-  serializedVersion: 6
-  m_Legacy: 0
-  m_Compressed: 0
-  m_UseHighQualityCurve: 1
-  m_RotationCurves: []
-  m_CompressedRotationCurves: []
-  m_EulerCurves: []
-  m_PositionCurves: []
-  m_ScaleCurves: []
-  m_FloatCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 13.733337
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: InitialModule.startColor.maxColor.a
-    path: 
-    classID: 198
-    script: {fileID: 0}
-  m_PPtrCurves: []
-  m_SampleRate: 60
-  m_WrapMode: 0
-  m_Bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
-  m_ClipBindingConstant:
-    genericBindings:
-    - serializedVersion: 2
-      path: 0
-      attribute: 2007035361
-      script: {fileID: 0}
-      typeID: 198
-      customType: 27
-      isPPtrCurve: 0
-    pptrCurveMapping: []
-  m_AnimationClipSettings:
-    serializedVersion: 2
-    m_AdditiveReferencePoseClip: {fileID: 0}
-    m_AdditiveReferencePoseTime: 0
-    m_StartTime: 0
-    m_StopTime: 13.733337
-    m_OrientationOffsetY: 0
-    m_Level: 0
-    m_CycleOffset: 0
-    m_HasAdditiveReferencePose: 0
-    m_LoopTime: 0
-    m_LoopBlend: 0
-    m_LoopBlendOrientation: 0
-    m_LoopBlendPositionY: 0
-    m_LoopBlendPositionXZ: 0
-    m_KeepOriginalOrientation: 0
-    m_KeepOriginalPositionY: 1
-    m_KeepOriginalPositionXZ: 0
-    m_HeightFromFeet: 0
-    m_Mirror: 0
-  m_EditorCurves:
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 13.733337
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        inSlope: 0.121088795
+        outSlope: 0.121088795
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -3742,10 +3742,10 @@ MonoBehaviour:
   m_Parent: {fileID: 114809156745916452}
   m_Children: []
   m_Clips:
-  - m_Start: 94.41666666666667
+  - m_Start: 111.59841664632164
     m_ClipIn: 0
-    m_Asset: {fileID: 114577850490193684}
-    m_Duration: 13.733333333333333
+    m_Asset: {fileID: 114748384193109530}
+    m_Duration: 25.03333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114182155710194624}
     m_EaseInDuration: 0
@@ -3796,7 +3796,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 94.41666666666667
+    m_PreExtrapolationTime: 111.59841664632164
     m_DisplayName: Recorded (10)
     m_Version: 1
   m_OpenClipPreExtrapolation: 0
@@ -3859,7 +3859,7 @@ MonoBehaviour:
   - m_Start: 101.13333333333334
     m_ClipIn: 0
     m_Asset: {fileID: 114027952465094370}
-    m_Duration: 4.033333333333331
+    m_Duration: 1.9330790201822907
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114273314190192218}
     m_EaseInDuration: 0
@@ -4046,7 +4046,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114809156745916452}
   m_Children: []
   m_Clips:
-  - m_Start: 87.98491668701172
+  - m_Start: 105.16666666666669
     m_ClipIn: 0
     m_Asset: {fileID: 114440194595259304}
     m_Duration: 75.78174997965496
@@ -4161,10 +4161,10 @@ MonoBehaviour:
   m_Parent: {fileID: 114809156745916452}
   m_Children: []
   m_Clips:
-  - m_Start: 94.41666666666667
+  - m_Start: 111.59841664632164
     m_ClipIn: 0
-    m_Asset: {fileID: 114890143261166254}
-    m_Duration: 13.733333333333333
+    m_Asset: {fileID: 114966125704212890}
+    m_Duration: 25.03333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114436953399375168}
     m_EaseInDuration: 0
@@ -4215,7 +4215,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 94.41666666666667
+    m_PreExtrapolationTime: 111.59841664632164
     m_DisplayName: Recorded (10)
     m_Version: 1
   m_OpenClipPreExtrapolation: 0
@@ -4275,10 +4275,10 @@ MonoBehaviour:
   m_Parent: {fileID: 114809156745916452}
   m_Children: []
   m_Clips:
-  - m_Start: 90.31666564941406
+  - m_Start: 107.49841562906903
     m_ClipIn: 0
     m_Asset: {fileID: 114165353335432798}
-    m_Duration: 13.733333333333333
+    m_Duration: 25.03333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114453987434343972}
     m_EaseInDuration: 0
@@ -4329,7 +4329,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 90.31666564941406
+    m_PreExtrapolationTime: 107.49841562906903
     m_DisplayName: Recorded (10)
     m_Version: 1
   m_OpenClipPreExtrapolation: 1
@@ -4364,7 +4364,7 @@ MonoBehaviour:
   - m_Start: 94.89974365234376
     m_ClipIn: 0
     m_Asset: {fileID: 114665733595204598}
-    m_Duration: 4.033333333333331
+    m_Duration: 1.7666666666666657
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114464448245489416}
     m_EaseInDuration: 0
@@ -4706,7 +4706,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114809156745916452}
   m_Children: []
   m_Clips:
-  - m_Start: 87.98491668701172
+  - m_Start: 105.16666666666669
     m_ClipIn: 0
     m_Asset: {fileID: 114798502516093884}
     m_Duration: 75.78174997965496
@@ -4781,23 +4781,6 @@ MonoBehaviour:
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 0
---- !u!114 &114577850490193684
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2024714994, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: AnimationPlayableAsset of Recorded (12)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 74821330110453268}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_UseTrackMatchFields: 0
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 0
 --- !u!114 &114588803659029242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4850,7 +4833,7 @@ MonoBehaviour:
   - m_Start: 88.38333129882812
     m_ClipIn: 0
     m_Asset: {fileID: 114068251986235802}
-    m_Duration: 4.033333333333331
+    m_Duration: 1.7666666666666657
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114620637925373308}
     m_EaseInDuration: 0
@@ -4993,7 +4976,7 @@ MonoBehaviour:
   - m_Start: 87.98491668701172
     m_ClipIn: 0
     m_Asset: {fileID: 114439274648211346}
-    m_Duration: 3.6833323160807225
+    m_Duration: 4.533333333333331
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114656567591700938}
     m_EaseInDuration: 0
@@ -5043,14 +5026,14 @@ MonoBehaviour:
     m_Recordable: 1
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 2.7984176635742273
+    m_PostExtrapolationTime: 1.9484166463216184
     m_PreExtrapolationTime: 0
     m_DisplayName: Spray
     m_Version: 1
   - m_Start: 94.46666666666667
     m_ClipIn: 0
     m_Asset: {fileID: 114334459760015712}
-    m_Duration: 3.6833323160807225
+    m_Duration: 4.533333333333331
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114656567591700938}
     m_EaseInDuration: 0
@@ -5100,14 +5083,14 @@ MonoBehaviour:
     m_Recordable: 1
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 2.483334350585963
+    m_PostExtrapolationTime: 1.6333333333333542
     m_PreExtrapolationTime: 0
     m_DisplayName: Spray
     m_Version: 1
   - m_Start: 100.63333333333335
     m_ClipIn: 0
     m_Asset: {fileID: 114026295491111130}
-    m_Duration: 3.6833323160807225
+    m_Duration: 4.533333333333331
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114656567591700938}
     m_EaseInDuration: 0
@@ -5369,6 +5352,23 @@ MonoBehaviour:
   m_UseTrackMatchFields: 0
   m_MatchTargetFields: 63
   m_RemoveStartOffset: 0
+--- !u!114 &114748384193109530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2024714994, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: AnimationPlayableAsset of Recorded (14)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 74107826290496594}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+  m_UseTrackMatchFields: 0
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 0
 --- !u!114 &114756719138901326
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5421,10 +5421,10 @@ MonoBehaviour:
   m_Parent: {fileID: 114809156745916452}
   m_Children: []
   m_Clips:
-  - m_Start: 90.31666564941406
+  - m_Start: 107.49841562906903
     m_ClipIn: 0
-    m_Asset: {fileID: 114849836167665426}
-    m_Duration: 13.733333333333333
+    m_Asset: {fileID: 114863428718077576}
+    m_Duration: 25.03333333333333
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114790499153294934}
     m_EaseInDuration: 0
@@ -5475,7 +5475,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 90.31666564941406
+    m_PreExtrapolationTime: 107.49841562906903
     m_DisplayName: Recorded (10)
     m_Version: 1
   m_OpenClipPreExtrapolation: 0
@@ -5537,23 +5537,6 @@ MonoBehaviour:
   - {fileID: 114182155710194624}
   - {fileID: 114436953399375168}
   m_Clips: []
---- !u!114 &114849836167665426
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 2024714994, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: AnimationPlayableAsset of Recorded (11)
-  m_EditorClassIdentifier: 
-  m_Clip: {fileID: 74176690777352564}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
-  m_UseTrackMatchFields: 0
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 0
 --- !u!114 &114857140361536352
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5565,7 +5548,7 @@ MonoBehaviour:
   m_Script: {fileID: 442072544, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
   m_Name: ActivationPlayableAsset
   m_EditorClassIdentifier: 
---- !u!114 &114890143261166254
+--- !u!114 &114863428718077576
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -5574,9 +5557,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 2024714994, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
-  m_Name: AnimationPlayableAsset of Recorded (13)
+  m_Name: AnimationPlayableAsset of Recorded (11)
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 74344619821762864}
+  m_Clip: {fileID: 74403051699212214}
   m_Position: {x: 0, y: 0, z: 0}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_UseTrackMatchFields: 0
@@ -5600,7 +5583,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114809156745916452}
   m_Children: []
   m_Clips:
-  - m_Start: 87.98491668701172
+  - m_Start: 105.16666666666669
     m_ClipIn: 0
     m_Asset: {fileID: 114798161287644768}
     m_Duration: 75.78174997965496
@@ -5676,7 +5659,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114809156745916452}
   m_Children: []
   m_Clips:
-  - m_Start: 87.98491668701172
+  - m_Start: 105.16666666666669
     m_ClipIn: 0
     m_Asset: {fileID: 114677871760448624}
     m_Duration: 75.78174997965496
@@ -6038,3 +6021,20 @@ MonoBehaviour:
     m_DisplayName: Stage 05 - Disintegration
     m_Version: 1
   m_PostPlaybackState: 3
+--- !u!114 &114966125704212890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2024714994, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: AnimationPlayableAsset of Recorded (12)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: 74260962085915970}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+  m_UseTrackMatchFields: 0
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 0
