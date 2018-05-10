@@ -6,10 +6,10 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Stage02
-  m_Shader: {fileID: 4800000, guid: d5f37086523089f46b9bf659fe49c6f4, type: 3}
+  m_Name: Stage03_fade
+  m_Shader: {fileID: 4800000, guid: 41113400899f5214b9683ccfd6abf0f1, type: 3}
   m_ShaderKeywords: 
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -19,7 +19,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 3621951796457404088764a4fa4e4bef, type: 3}
+        m_Texture: {fileID: 2800000, guid: 68e574836dbe2d549abdc09061971384, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -39,35 +39,35 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndAO:
-        m_Texture: {fileID: 2800000, guid: dc1ff7d96ab26e442aa7f5e9bde7cdc4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 20e3b85b6508bdc4986c5aca64b40720, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndBumpMap:
-        m_Texture: {fileID: 2800000, guid: 68e574836dbe2d549abdc09061971384, type: 3}
+        m_Texture: {fileID: 2800000, guid: 70078d6e3cd3dc3429e84844a9016dff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndDisplacement:
-        m_Texture: {fileID: 2800000, guid: 9bac9adccb111304f8944f44f5e611f2, type: 3}
+        m_Texture: {fileID: 2800000, guid: 20e3b85b6508bdc4986c5aca64b40720, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndMainTex:
-        m_Texture: {fileID: 2800000, guid: ea698e838d991774fb67c59f14d19282, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2fe0bad04a9632f4f940c357dbe9058d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndRoughness:
-        m_Texture: {fileID: 2800000, guid: 924e40d003f82c34d9dd1ce06c701ba8, type: 3}
+        m_Texture: {fileID: 2800000, guid: 51748ae0176061843a1283c0530271bc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FadeNoise:
-        m_Texture: {fileID: 2800000, guid: a5595c16d37370e42b68130931031cef, type: 3}
-        m_Scale: {x: 0.3, y: 0.3}
+        m_Texture: {fileID: 2800000, guid: 3348ee9eb48c25a4baf2ccafd576ee72, type: 3}
+        m_Scale: {x: 0.41, y: 0.78}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
-        m_Texture: {fileID: 2800000, guid: 1b5a84a4e168b6b46af7882408785d4b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 72b292e1ad34937459b203fcc5fa3480, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b92a5e2e96ba13c4caa77e69d9ad704f, type: 3}
+        m_Texture: {fileID: 2800000, guid: ea698e838d991774fb67c59f14d19282, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -83,28 +83,28 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StartAO:
-        m_Texture: {fileID: 2800000, guid: 686e6333a39e91544b5355deaf3b690c, type: 3}
+        m_Texture: {fileID: 2800000, guid: dc1ff7d96ab26e442aa7f5e9bde7cdc4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StartDisplacement:
-        m_Texture: {fileID: 2800000, guid: c73ebb2bae20d1d41afebc13fb003a17, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9bac9adccb111304f8944f44f5e611f2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StartRoughness:
-        m_Texture: {fileID: 2800000, guid: 94ed8bf26f450a948ae9509e14d00121, type: 3}
+        m_Texture: {fileID: 2800000, guid: 924e40d003f82c34d9dd1ce06c701ba8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _DisplacementStrength: 0.08
     - _DstBlend: 0
-    - _EndDispScale: 0
+    - _EndDispStr: 0.56
     - _EndMetallic: 0
     - _EndNormalStrength: 1
     - _EndRoughMult: 1
-    - _EndTesselation: 1
-    - _FadePow: 2.82
+    - _FadePow: 2.2
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -115,21 +115,20 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StartMetallic: 0.27
+    - _StartMetallic: 0
     - _StartNormalStrength: 1
     - _StartRoughMult: 1
-    - _StartTesselation: 1
     - _Switch: 1
     - _SwitchSlider: 0
-    - _Tesselation: 2.66
+    - _Tesselation: 6.88
     - _TexRangeMax: 0
-    - _TexRangeMin: 1
+    - _TexRangeMin: 1.25
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EndNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.19}
+    - _EndNrmDispMinMaxStr: {r: 1, g: -0.8, b: 0.2, a: 0.04}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
-    - _StartNrmDispMinMaxStr: {r: 1, g: -0.1, b: 0.9, a: 0.12}
+    - _StartNrmDispMinMaxStr: {r: 1, g: -0.1, b: 1, a: 0.1}
