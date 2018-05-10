@@ -14,6 +14,7 @@ Shader "Kvant/Wig/Filament"
 
         [Header(Base)]
 
+		_MainTex ("Texture", 2D) = "white" {}
         _BaseColor("Color", Color) = (1, 1, 1)
         _BaseRandom("Randomize", Range(0, 1)) = 1
 
@@ -39,7 +40,7 @@ Shader "Kvant/Wig/Filament"
             ENDCG
         }
         CGPROGRAM
-        #pragma surface surf Standard vertex:vert nolightmap addshadow
+        #pragma surface surf Standard vertex:vert addshadow fullforwardshadows 
         #pragma multi_compile _ UNITY_COLORSPACE_GAMMA
         #pragma target 3.0
         #include "Filament.cginc"
