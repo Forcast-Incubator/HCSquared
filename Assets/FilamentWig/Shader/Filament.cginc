@@ -11,9 +11,12 @@ half _GlowProb;
 half3 _GlowColor;
 half _GlowRandom;
 
+sampler2D _MainTex;
+
 struct Input
 {
     half filamentID;
+	float2 uv_MainTex;
 };
 
 void vert(inout appdata_full v, out Input data)
@@ -31,17 +34,18 @@ void vert(inout appdata_full v, out Input data)
 
     // Parameters for the pixel shader
     data.filamentID = uv.x + _RandomSeed * 58.92128;
+	data.uv_MainTex = uv;
 }
 
 void surf(Input IN, inout SurfaceOutputStandard o)
 {
     // Random color
-    half3 color = HueToRGB(frac(IN.filamentID * 314.2213));
+    half3 color = tex2D(_MainTex, IN.uv_MainTex).rgb; //HueToRGB(frac(IN.filamentID * 314.2213));
 
     // Glow effect
     half glow = frac(IN.filamentID * 138.9044 + _Time.y / 2) < _GlowProb;
 
-    o.Albedo = lerp(_BaseColor, color, _BaseRandom);
+    o.Albedo = color; //lerp(_BaseColor, color, _BaseRandom);
     o.Smoothness = _Smoothness;
     o.Metallic = _Metallic;
     o.Emission = lerp(_GlowColor, color, _GlowRandom) * _GlowIntensity * glow;
