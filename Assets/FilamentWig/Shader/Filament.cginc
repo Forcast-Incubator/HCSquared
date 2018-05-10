@@ -45,7 +45,7 @@ void surf(Input IN, inout SurfaceOutputStandard o)
     // Glow effect
     half glow = frac(IN.filamentID * 138.9044 + _Time.y / 2) < _GlowProb;
 
-    o.Albedo = color; //lerp(_BaseColor, color, _BaseRandom);
+    o.Albedo = color * _BaseColor; //lerp(_BaseColor, color, _BaseRandom);
     o.Smoothness = _Smoothness;
     o.Metallic = _Metallic;
     o.Emission = lerp(_GlowColor, color, _GlowRandom) * _GlowIntensity * glow;
