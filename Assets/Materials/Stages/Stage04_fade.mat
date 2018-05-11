@@ -120,10 +120,10 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StartAdd: 0.15
+    - _StartAdd: -0.08
     - _StartMetallic: 0
     - _StartNormalStrength: 1
-    - _StartRemap: 1
+    - _StartRemap: 0.7
     - _StartRoughMult: 1
     - _Switch: 1
     - _SwitchSlider: 0

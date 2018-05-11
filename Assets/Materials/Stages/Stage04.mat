@@ -64,7 +64,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _FadeNoise:
         m_Texture: {fileID: 2800000, guid: cdde99a9c381e934a9d4d8876504a182, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 0.1, y: 0.1}
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
         m_Texture: {fileID: 2800000, guid: 72b292e1ad34937459b203fcc5fa3480, type: 3}
@@ -140,5 +140,5 @@ Material:
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
     - _EndNrmDispMinMaxStr: {r: 1, g: 0, b: 1, a: 0.04}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
-    - _StartEndAddContrast: {r: 0.15, g: 1, b: -0.09, a: 0.49}
+    - _StartEndAddContrast: {r: -0.08, g: 0.7, b: -0.09, a: 0.49}
     - _StartNrmDispMinMaxStr: {r: 1, g: -0.8, b: 0.2, a: 0.04}
