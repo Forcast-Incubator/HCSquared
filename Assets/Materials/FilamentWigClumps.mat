@@ -83,11 +83,11 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _ThickRandom: 0.586
-    - _Thickness: 0.015
+    - _Thickness: 0.01
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 0.8664897, g: 0.89705884, b: 0.7585424, a: 1}
+    - _BaseColor: {r: 0.80527383, g: 1, b: 0.7794118, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _GlowColor: {r: 1, g: 1, b: 1, a: 1}

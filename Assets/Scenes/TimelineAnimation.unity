@@ -469,7 +469,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1434557915491656, guid: c8550f22ee4a8db418ad7e088b05bbe5, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198410947366419462, guid: c8550f22ee4a8db418ad7e088b05bbe5,
         type: 2}
@@ -4602,7 +4602,7 @@ MonoBehaviour:
   _lengthRandomness: 0.5
   _spring: 0
   _damping: 500
-  _gravity: {x: 0, y: 6, z: -2}
+  _gravity: {x: 0, y: 6, z: 0}
   _noiseAmplitude: 2
   _noiseFrequency: 1
   _noiseSpeed: 0.1
@@ -4902,7 +4902,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5a97962f7d5ba4df0823334b52c7c02c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 5a97962f7d5ba4df0823334b52c7c02c, type: 2}
       propertyPath: lengthInSec
@@ -5194,7 +5194,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5a97962f7d5ba4df0823334b52c7c02c, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 5a97962f7d5ba4df0823334b52c7c02c, type: 2}
       propertyPath: InitialModule.startLifetime.scalar
@@ -5324,7 +5324,7 @@ MonoBehaviour:
   _lengthRandomness: 0.5
   _spring: 0
   _damping: 500
-  _gravity: {x: 0, y: 6, z: -2}
+  _gravity: {x: 0, y: 6, z: 0}
   _noiseAmplitude: 2
   _noiseFrequency: 1
   _noiseSpeed: 0.1
@@ -13825,7 +13825,7 @@ MonoBehaviour:
   _lengthRandomness: 0.5
   _spring: 0
   _damping: 500
-  _gravity: {x: 0, y: 6, z: -2}
+  _gravity: {x: 0, y: 6, z: 0}
   _noiseAmplitude: 2
   _noiseFrequency: 1
   _noiseSpeed: 0.1
@@ -17462,7 +17462,7 @@ MonoBehaviour:
   _lengthRandomness: 0.5
   _spring: 0
   _damping: 500
-  _gravity: {x: 0, y: 6, z: -2}
+  _gravity: {x: 0, y: 6, z: 0}
   _noiseAmplitude: 2
   _noiseFrequency: 1
   _noiseSpeed: 0.1
@@ -17745,7 +17745,7 @@ MonoBehaviour:
   _lengthRandomness: 0.5
   _spring: 0
   _damping: 500
-  _gravity: {x: 0, y: 6, z: -2}
+  _gravity: {x: 0, y: 6, z: 0}
   _noiseAmplitude: 2
   _noiseFrequency: 1
   _noiseSpeed: 0.1
@@ -18414,7 +18414,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1554307112930222, guid: 30d987a5b9045e742aa0d602c15b6cb3, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198911863432002360, guid: 30d987a5b9045e742aa0d602c15b6cb3,
         type: 2}
@@ -18639,7 +18639,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1855321831
 Transform:
   m_ObjectHideFlags: 0
@@ -22197,7 +22197,7 @@ MonoBehaviour:
   _lengthRandomness: 0.5
   _spring: 0
   _damping: 500
-  _gravity: {x: 0, y: 6, z: -2}
+  _gravity: {x: 0, y: 6, z: 0}
   _noiseAmplitude: 2
   _noiseFrequency: 1
   _noiseSpeed: 0.1
