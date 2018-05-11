@@ -9246,9 +9246,11 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1019425196}
+  - component: {fileID: 1019425200}
   - component: {fileID: 1019425198}
   - component: {fileID: 1019425197}
   - component: {fileID: 1019425199}
+  - component: {fileID: 1019425201}
   m_Layer: 0
   m_Name: Wig Spot_01
   m_TagString: Untagged
@@ -9283,7 +9285,7 @@ MonoBehaviour:
   _target: {fileID: 425291579}
   _template: {fileID: 11400000, guid: f8932131f05ced445a50d46d4847e0c3, type: 2}
   _maxTimeStep: 0.006
-  _randomSeed: 0
+  _randomSeed: 0.015
   _length: 0.9
   _lengthRandomness: 0.5
   _spring: 0
@@ -9302,7 +9304,7 @@ MeshRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 3
@@ -9334,6 +9336,36 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1019425195}
   m_Mesh: {fileID: 43385031787072456, guid: f8932131f05ced445a50d46d4847e0c3, type: 2}
+--- !u!114 &1019425200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1019425195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4051745093899174484958fe662cebff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorTint: {r: 1, g: 1, b: 1, a: 1}
+  filamentThickness: 0.015
+--- !u!95 &1019425201
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1019425195}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1001 &1049646211
 Prefab:
   m_ObjectHideFlags: 0
@@ -17404,6 +17436,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1430945718}
+  - component: {fileID: 1430945719}
   m_Layer: 0
   m_Name: Filament
   m_TagString: Untagged
@@ -17432,6 +17465,26 @@ Transform:
   m_Father: {fileID: 1268850783}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1430945719
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1430945717}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: c8b1d2c61224f474894177ce329a01c3, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 1
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 0}
+    value: {fileID: 0}
+  - key: {fileID: 114818588395522810, guid: c8b1d2c61224f474894177ce329a01c3, type: 2}
+    value: {fileID: 1019425195}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1472606724
 GameObject:
   m_ObjectHideFlags: 0
