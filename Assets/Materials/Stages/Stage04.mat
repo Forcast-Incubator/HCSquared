@@ -42,6 +42,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: e6f024ce4d6a12e4393689530c2e68c8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _EndAlpha:
+        m_Texture: {fileID: 2800000, guid: 9bac9adccb111304f8944f44f5e611f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EndBumpMap:
         m_Texture: {fileID: 2800000, guid: 9f1a1d65d4d4905428e21c0c5d35e333, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -86,6 +90,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 20e3b85b6508bdc4986c5aca64b40720, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _StartAlpha:
+        m_Texture: {fileID: 2800000, guid: 9bac9adccb111304f8944f44f5e611f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _StartDisplacement:
         m_Texture: {fileID: 2800000, guid: 20e3b85b6508bdc4986c5aca64b40720, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -95,6 +103,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlphaFresnel: 0.78
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -119,7 +128,7 @@ Material:
     - _StartNormalStrength: 1
     - _StartRoughMult: 1
     - _Switch: 1
-    - _SwitchSlider: 0
+    - _SwitchSlider: 0.533
     - _Tesselation: 2
     - _TexRangeMax: 0.36
     - _TexRangeMin: -0.01
@@ -131,4 +140,5 @@ Material:
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
     - _EndNrmDispMinMaxStr: {r: 1, g: 0, b: 1, a: 0}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StartEndAddContrast: {r: 0.25, g: 4.75, b: 0, a: 0}
     - _StartNrmDispMinMaxStr: {r: 1, g: -0.8, b: 0.2, a: 0.04}

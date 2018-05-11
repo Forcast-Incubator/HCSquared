@@ -103,7 +103,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AlphaFresnel: 0.78
+    - _AlphaFresnel: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -132,7 +132,7 @@ Material:
     - _StartRoughMult: 1
     - _StartTesselation: 1
     - _Switch: 1
-    - _SwitchSlider: 0
+    - _SwitchSlider: 1
     - _Tesselation: 2
     - _TexRangeMax: 0
     - _TexRangeMin: 1
@@ -144,5 +144,5 @@ Material:
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
     - _EndNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.34}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
-    - _StartEndAddContrast: {r: -0.61, g: 0.88, b: 0.25, a: 4.75}
+    - _StartEndAddContrast: {r: -0.63, g: 1.14, b: 0.25, a: 4.75}
     - _StartNrmDispMinMaxStr: {r: 1, g: -0.1, b: 0.9, a: 0.12}
