@@ -120,7 +120,7 @@ Material:
     - _StartRoughMult: 1
     - _Switch: 1
     - _SwitchSlider: 0
-    - _Tesselation: 6.88
+    - _Tesselation: 2
     - _TexRangeMax: 0
     - _TexRangeMin: 1.25
     - _UVSec: 0
@@ -129,6 +129,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EndNrmDispMinMaxStr: {r: 1, g: -0.8, b: 0.2, a: 0.04}
+    - _EndNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.19}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
-    - _StartNrmDispMinMaxStr: {r: 1, g: -0.1, b: 1, a: 0.1}
+    - _StartNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.19}

@@ -121,7 +121,7 @@ Material:
     - _StartTesselation: 1
     - _Switch: 1
     - _SwitchSlider: 0
-    - _Tesselation: 2.66
+    - _Tesselation: 2
     - _TexRangeMax: 0
     - _TexRangeMin: 1
     - _UVSec: 0
