@@ -9043,13 +9043,13 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 455.53333
+        time: 450.25
         value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 455.75
+        time: 450.46667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -9261,13 +9261,13 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 455.53333
+        time: 450.25
         value: 1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 455.75
+        time: 450.46667
         value: 1
         inSlope: 0
         outSlope: 0
@@ -13851,7 +13851,7 @@ MonoBehaviour:
   - m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 114688177960429344}
-    m_Duration: 500
+    m_Duration: 474.15
     m_TimeScale: 1
     m_ParentTrack: {fileID: 114615939759660280}
     m_EaseInDuration: 0

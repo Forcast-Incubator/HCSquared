@@ -44,7 +44,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _EndAlpha:
         m_Texture: {fileID: 2800000, guid: 9bac9adccb111304f8944f44f5e611f2, type: 3}
-        m_Scale: {x: 0.4, y: 0.4}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndBumpMap:
         m_Texture: {fileID: 2800000, guid: 68e574836dbe2d549abdc09061971384, type: 3}
@@ -103,7 +103,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AlphaFresnel: 1
+    - _AlphaFresnel: 0.78
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -142,7 +142,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
-    - _EndNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.34}
+    - _EndNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.19}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
     - _StartEndAddContrast: {r: -0.63, g: 1.14, b: 0.25, a: 4.75}
     - _StartNrmDispMinMaxStr: {r: 1, g: -0.1, b: 0.9, a: 0.12}
