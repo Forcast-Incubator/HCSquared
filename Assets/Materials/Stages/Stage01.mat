@@ -147,4 +147,4 @@ Material:
     - _EndNrmDispMinMaxStr: {r: 1, g: -0.1, b: 0.9, a: 0.12}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
     - _StartEndAddContrast: {r: -0.26, g: -2.52, b: -0.61, a: 0.88}
-    - _StartNrmDispMinMaxStr: {r: 1, g: 0, b: 1, a: 0.2}
+    - _StartNrmDispMinMaxStr: {r: 1, g: 0, b: 1, a: 0.06}
