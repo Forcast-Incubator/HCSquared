@@ -21709,6 +21709,7 @@ GameObject:
   - component: {fileID: 1742599648}
   - component: {fileID: 1742599647}
   - component: {fileID: 1742599646}
+  - component: {fileID: 1742599649}
   m_Layer: 0
   m_Name: Wig Spot_02
   m_TagString: Untagged
@@ -21794,6 +21795,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1742599649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1742599644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4051745093899174484958fe662cebff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorTint: {r: 0.8455882, g: 0.43522924, b: 0.43522924, a: 1}
+  filamentThickness: 0.015
 --- !u!1001 &1748521690
 Prefab:
   m_ObjectHideFlags: 0
