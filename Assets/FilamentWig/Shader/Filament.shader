@@ -41,7 +41,7 @@ Shader "Kvant/Wig/Filament"
         }
         CGPROGRAM
         #pragma surface surf Standard vertex:vert addshadow fullforwardshadows 
-        #pragma multi_compile _ UNITY_COLORSPACE_GAMMA
+        #pragma multi_compile _ UNITY_COLORSPACE_LINEAR
         #pragma target 3.0
         #include "Filament.cginc"
         ENDCG
