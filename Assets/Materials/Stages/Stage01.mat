@@ -43,7 +43,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndAlpha:
-        m_Texture: {fileID: 2800000, guid: 1b5a84a4e168b6b46af7882408785d4b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 686e6333a39e91544b5355deaf3b690c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EndBumpMap:
@@ -103,7 +103,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AlphaFresnel: 1
+    - _AlphaFresnel: 0.78
     - _Alphaadd: -0.33
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -133,8 +133,8 @@ Material:
     - _StartRoughMult: 1.3
     - _StartTesselation: 1
     - _Switch: 1
-    - _Tesselation: 2
     - _SwitchSlider: 0
+    - _Tesselation: 2
     - _TexRangeMax: 0
     - _TexRangeMin: 1
     - _UVSec: 0
@@ -146,5 +146,5 @@ Material:
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
     - _EndNrmDispMinMaxStr: {r: 1, g: -0.1, b: 0.9, a: 0.12}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
-    - _StartEndAddContrast: {r: -0.26, g: -2.52, b: -0.38, a: 2.06}
+    - _StartEndAddContrast: {r: -0.26, g: -2.52, b: -0.61, a: 0.88}
     - _StartNrmDispMinMaxStr: {r: 1, g: 0, b: 1, a: 0.2}
