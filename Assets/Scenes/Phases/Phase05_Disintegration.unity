@@ -4796,6 +4796,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a6bc5df817d7fd34793108ce53031287, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6bc5df817d7fd34793108ce53031287, type: 3}
   m_IsPrefabParent: 0
@@ -4934,7 +4938,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -413098203
+  randomSeed: -647692297
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5587,6 +5591,12 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 2
           time: 0
+          value: 0
+          inSlope: 6.359336
+          outSlope: 6.359336
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 0.5
           value: 1
           inSlope: 0
           outSlope: 0
@@ -5594,8 +5604,8 @@ ParticleSystem:
         - serializedVersion: 2
           time: 1
           value: 0
-          inSlope: -2
-          outSlope: -2
+          inSlope: -6.6542397
+          outSlope: -6.6542397
           tangentMode: 0
         m_PreInfinity: 2
         m_PostInfinity: 2
@@ -12153,7 +12163,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1430945718
 Transform:
   m_ObjectHideFlags: 0
