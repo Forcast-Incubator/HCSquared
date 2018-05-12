@@ -290,82 +290,6 @@ GameObject:
   m_PrefabParentObject: {fileID: 1469211279581816, guid: f3c9a0b902783cb44a6e9fda3f1090a0,
     type: 2}
   m_PrefabInternal: {fileID: 435494412}
---- !u!21 &107027555
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: AIBall (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
-    (cloned) (cloned)
-  m_Shader: {fileID: 4800000, guid: 1e6457a912ddc4e419db840a3bad1e4f, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0.7
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _Smoothness: 0.7
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0.8479441, g: 0.9716981, b: 0.96161133, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &165973732
 GameObject:
   m_ObjectHideFlags: 0
@@ -10020,13 +9944,14 @@ GameObject:
   m_Component:
   - component: {fileID: 949255742}
   - component: {fileID: 949255743}
+  - component: {fileID: 949255744}
   m_Layer: 0
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &949255742
 Transform:
   m_ObjectHideFlags: 0
@@ -10050,8 +9975,8 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.8014706, g: 0.9589249, b: 1, a: 1}
-  m_Intensity: 0.5
-  m_Range: 4.09
+  m_Intensity: 2
+  m_Range: 1.5
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -10068,7 +9993,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967039
   m_Lightmapping: 4
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -10076,6 +10001,23 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!95 &949255744
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949255741}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &987580344
 GameObject:
   m_ObjectHideFlags: 0
@@ -17479,6 +17421,8 @@ PlayableDirector:
     value: {fileID: 1044196299}
   - key: {fileID: 114675588028094830, guid: f46ff99f08a1b1a458f388a15673c494, type: 2}
     value: {fileID: 1317375819}
+  - key: {fileID: 114951723886093966, guid: f46ff99f08a1b1a458f388a15673c494, type: 2}
+    value: {fileID: 949255741}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &1100136575
@@ -29965,6 +29909,82 @@ Transform:
   m_Father: {fileID: 1268850783}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &1744595280
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AIBall (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
+    (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
+  m_Shader: {fileID: 4800000, guid: 1e6457a912ddc4e419db840a3bad1e4f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0.7
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Smoothness: 0.7
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.8479441, g: 0.9716981, b: 0.96161133, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &1752240167
 GameObject:
   m_ObjectHideFlags: 0
@@ -34392,7 +34412,7 @@ GameObject:
   - component: {fileID: 1926346653}
   - component: {fileID: 1926346654}
   - component: {fileID: 1926346655}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: AIBall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34430,7 +34450,7 @@ MonoBehaviour:
   _noiseAmplitude: -0.5
   _noiseFrequency: 0.2
   _noiseMotion: {x: 0.3, y: 0.3, z: 0.3}
-  _material: {fileID: 107027555}
+  _material: {fileID: 1744595280}
   _compute: {fileID: 7200000, guid: 71ae9119da7452b4a846d0ceb2d6aea9, type: 3}
 --- !u!114 &1926346654
 MonoBehaviour:
