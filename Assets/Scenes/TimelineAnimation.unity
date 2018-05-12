@@ -161,7 +161,7 @@ Prefab:
     - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
         type: 2}
       propertyPath: randomSeed
-      value: 211027511
+      value: 1782394928
       objectReference: {fileID: 0}
     - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
         type: 2}
@@ -385,7 +385,7 @@ Prefab:
     - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
         type: 2}
       propertyPath: randomSeed
-      value: -2022628246
+      value: -193750188
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdd0430cb481f434c96103fc0196abc0, type: 2}
@@ -840,7 +840,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &253594618
 Transform:
   m_ObjectHideFlags: 0
@@ -4315,7 +4315,7 @@ GameObject:
   - component: {fileID: 273494511}
   - component: {fileID: 273494512}
   m_Layer: 0
-  m_Name: Growths
+  m_Name: Plants
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4533,6 +4533,31 @@ Prefab:
       propertyPath: segmentRotationOffsetRandom.y
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
   m_IsPrefabParent: 0
@@ -4653,6 +4678,31 @@ Prefab:
       propertyPath: segmentRotationOffsetRandom.y
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
   m_IsPrefabParent: 0
@@ -4723,7 +4773,7 @@ Prefab:
     - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
         type: 2}
       propertyPath: randomSeed
-      value: 1141927194
+      value: 1895017975
       objectReference: {fileID: 0}
     - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
         type: 2}
@@ -5378,6 +5428,31 @@ Prefab:
       propertyPath: growthForces.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
   m_IsPrefabParent: 0
@@ -5988,6 +6063,31 @@ Prefab:
         type: 2}
       propertyPath: growthForces.y
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
@@ -9802,6 +9902,31 @@ Prefab:
       propertyPath: stemShape.m_Curve.Array.data[1].tangentMode
       value: 34
       objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
   m_IsPrefabParent: 0
@@ -13551,7 +13676,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1044196300
 Transform:
   m_ObjectHideFlags: 0
@@ -13696,7 +13821,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 152142846
+  randomSeed: -26193325
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -17192,7 +17317,7 @@ PlayableDirector:
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
-  m_InitialTime: 250
+  m_InitialTime: 150
   m_SceneBindings:
   - key: {fileID: 0}
     value: {fileID: 1088561317}
@@ -17273,6 +17398,10 @@ PlayableDirector:
   - key: {fileID: 114572379431401882, guid: f46ff99f08a1b1a458f388a15673c494, type: 2}
     value: {fileID: 1044196299}
   - key: {fileID: 114049939642586776, guid: f46ff99f08a1b1a458f388a15673c494, type: 2}
+    value: {fileID: 1317375819}
+  - key: {fileID: 114522332188593880, guid: f46ff99f08a1b1a458f388a15673c494, type: 2}
+    value: {fileID: 1044196299}
+  - key: {fileID: 114675588028094830, guid: f46ff99f08a1b1a458f388a15673c494, type: 2}
     value: {fileID: 1317375819}
   m_ExposedReferences:
     m_References: []
@@ -17387,6 +17516,31 @@ Prefab:
         type: 2}
       propertyPath: segmentRotationOffsetRandom.y
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
@@ -17507,6 +17661,31 @@ Prefab:
         type: 2}
       propertyPath: growthForces.y
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
@@ -17692,7 +17871,7 @@ Prefab:
     - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
         type: 2}
       propertyPath: randomSeed
-      value: 684976804
+      value: -1785623117
       objectReference: {fileID: 0}
     - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
         type: 2}
@@ -17794,7 +17973,7 @@ Prefab:
     - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
         type: 2}
       propertyPath: randomSeed
-      value: -1704785043
+      value: -45088650
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdd0430cb481f434c96103fc0196abc0, type: 2}
@@ -18040,7 +18219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1317375820
 Transform:
   m_ObjectHideFlags: 0
@@ -18185,7 +18364,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1569202416
+  randomSeed: -758025467
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -28931,7 +29110,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: a6bc5df817d7fd34793108ce53031287, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6bc5df817d7fd34793108ce53031287, type: 3}
@@ -29139,6 +29318,11 @@ Prefab:
         type: 2}
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
+        type: 2}
+      propertyPath: randomSeed
+      value: 1600698270
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdd0430cb481f434c96103fc0196abc0, type: 2}
@@ -29425,6 +29609,31 @@ Prefab:
       propertyPath: growthForces.y
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
   m_IsPrefabParent: 0
@@ -29492,6 +29701,11 @@ Prefab:
       propertyPath: EmissionModule.rateOverTime.scalar
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
+        type: 2}
+      propertyPath: randomSeed
+      value: -1997689533
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdd0430cb481f434c96103fc0196abc0, type: 2}
   m_IsPrefabParent: 0
@@ -29548,7 +29762,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: b2a89c58b877b7445ab619df9b433656, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b2a89c58b877b7445ab619df9b433656, type: 3}
@@ -30347,6 +30561,31 @@ Prefab:
         type: 2}
       propertyPath: segmentScale.z
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
@@ -34445,6 +34684,31 @@ Prefab:
       propertyPath: segmentRotationOffsetRandom.y
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.r
+      value: 0.27058825
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.b
+      value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: leafColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114513304689452630, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
+        type: 2}
+      propertyPath: animating
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2e59667ba2fb66749a6b04b3f6d18c62, type: 2}
   m_IsPrefabParent: 0
@@ -34497,6 +34761,16 @@ Prefab:
       propertyPath: target
       value: 
       objectReference: {fileID: 1926346652}
+    - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
+        type: 2}
+      propertyPath: randomSeed
+      value: -76857821
+      objectReference: {fileID: 0}
+    - target: {fileID: 198810244847256588, guid: fdd0430cb481f434c96103fc0196abc0,
+        type: 2}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdd0430cb481f434c96103fc0196abc0, type: 2}
   m_IsPrefabParent: 0

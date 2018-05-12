@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using UnityEngine.Playables;
+
 
 public class GrowthRoot : MonoBehaviour {
 
@@ -15,6 +17,9 @@ public class GrowthRoot : MonoBehaviour {
     public Vector2 segmentRotationOffsetRandom = Vector2.zero;
     public AnimationCurve stemShape;
     private List<Segment> prefabList;
+
+    public Color leafColor;
+    public bool animating = true;
 
     public int seed;
     private int numSegmentsPrevious = 0;
@@ -31,7 +36,7 @@ public class GrowthRoot : MonoBehaviour {
 
         FillPrefabList();
         Random.InitState(seed);
-
+        
     }
 
     void FillPrefabList()
@@ -95,6 +100,10 @@ public class GrowthRoot : MonoBehaviour {
             prefabList[i].gameObject.transform.localScale = segmentScale * segmentSizeFromCurve;
             prefabList[i].rb.mass = Mathf.Clamp(segmentSizeFromCurve, 0.1f, 1.0f);
 
+            prefabList[i].mr.material.SetColor("_Color", leafColor);
+
+            if (!animating)
+                prefabList[i].pd.Stop();
             /*if (waitAmount > waitCounter)
             {
                 prefabList[i].cf.force = Vector3.zero;
@@ -122,6 +131,8 @@ public class GrowthRoot : MonoBehaviour {
         public float rotationOffset;
         public Rigidbody rb;
         public ConstantForce cf;
+        public MeshRenderer mr;
+        public PlayableDirector pd;
 
         public Segment(GameObject _gameObject, float _rotationOffset)
         {
@@ -129,6 +140,8 @@ public class GrowthRoot : MonoBehaviour {
             rotationOffset = _rotationOffset;
             rb = gameObject.GetComponent<Rigidbody>();
             cf = gameObject.GetComponent<ConstantForce>();
+            mr = gameObject.GetComponentInChildren<MeshRenderer>();
+            pd = gameObject.GetComponentInChildren<PlayableDirector>();
         }
     }
 }

@@ -74,7 +74,7 @@ Material:
     - _GlowIntensity: 0
     - _GlowProb: 0
     - _GlowRandom: 0
-    - _Metallic: 0.8
+    - _Metallic: 0.7
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
