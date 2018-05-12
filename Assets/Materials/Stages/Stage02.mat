@@ -91,7 +91,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StartAlpha:
-        m_Texture: {fileID: 2800000, guid: 686e6333a39e91544b5355deaf3b690c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _StartDisplacement:
@@ -127,12 +127,12 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _StartAlphaAdd: -0.77
-    - _StartMetallic: 0.27
+    - _StartMetallic: 1
     - _StartNormalStrength: 1
-    - _StartRoughMult: 1
+    - _StartRoughMult: 0.5
     - _StartTesselation: 1
     - _Switch: 1
-    - _SwitchSlider: 1
+    - _SwitchSlider: 0
     - _Tesselation: 2
     - _TexRangeMax: 0
     - _TexRangeMin: 1
@@ -144,5 +144,5 @@ Material:
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
     - _EndNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.19}
     - _StartColor: {r: 1, g: 1, b: 1, a: 1}
-    - _StartEndAddContrast: {r: -0.63, g: 1.14, b: 0.25, a: 4.75}
+    - _StartEndAddContrast: {r: 0.3, g: 2, b: 0.25, a: 4.75}
     - _StartNrmDispMinMaxStr: {r: 1, g: -0.1, b: 0.9, a: 0.12}

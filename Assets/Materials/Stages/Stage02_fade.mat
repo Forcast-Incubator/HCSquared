@@ -99,7 +99,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AlphaFresnel: 1
+    - _AlphaFresnel: 0.78
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -120,11 +120,11 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StartAdd: -0.63
-    - _StartMetallic: 0.27
+    - _StartAdd: 0.3
+    - _StartMetallic: 1
     - _StartNormalStrength: 1
-    - _StartRemap: 1.14
-    - _StartRoughMult: 1
+    - _StartRemap: 2
+    - _StartRoughMult: 0.5
     - _StartTesselation: 1
     - _Switch: 1
     - _SwitchSlider: 0
