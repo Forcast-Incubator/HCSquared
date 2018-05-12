@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-//[ExecuteInEditMode]
+[ExecuteInEditMode]
 public class AIBall : MonoBehaviour
 {
     #region Exposed attributes
