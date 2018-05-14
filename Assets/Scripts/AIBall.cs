@@ -159,7 +159,7 @@ public class AIBall : MonoBehaviour
         Graphics.DrawMeshInstancedIndirect(
             _mesh, 0, _material,
             new Bounds(transform.position, transform.lossyScale * 5),
-            _drawArgsBuffer, 0, _props
+            _drawArgsBuffer, 0, _props, UnityEngine.Rendering.ShadowCastingMode.On, true, 8
         );
 
         // Move the noise field.
