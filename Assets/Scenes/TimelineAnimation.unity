@@ -8090,84 +8090,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4645876277000106, guid: 2e59667ba2fb66749a6b04b3f6d18c62,
     type: 2}
   m_PrefabInternal: {fileID: 294150479}
---- !u!21 &298824367
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: AIBall (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
-    (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
-    (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
-    (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
-  m_Shader: {fileID: 4800000, guid: 1e6457a912ddc4e419db840a3bad1e4f, type: 3}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 1
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _BumpScale: 1
-    - _Cutoff: 0.5
-    - _DetailNormalMapScale: 1
-    - _DstBlend: 0
-    - _GlossMapScale: 1
-    - _Glossiness: 0.5
-    - _GlossyReflections: 1
-    - _Metallic: 0.7
-    - _Mode: 0
-    - _OcclusionStrength: 1
-    - _Parallax: 0.02
-    - _Smoothness: 0.7
-    - _SmoothnessTextureChannel: 0
-    - _SpecularHighlights: 1
-    - _SrcBlend: 1
-    - _UVSec: 0
-    - _ZWrite: 1
-    m_Colors:
-    - _Color: {r: 0.8479441, g: 0.9716981, b: 0.96161133, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &310208494
 Prefab:
   m_ObjectHideFlags: 0
@@ -21749,7 +21671,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 2
   m_Materials:
   - {fileID: 2100000, guid: 4c5e43d9c6ac7294d8b1e0b3f5bc442b, type: 2}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 4c5e43d9c6ac7294d8b1e0b3f5bc442b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -21847,7 +21769,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 2079964200
+  randomSeed: 174549896
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -24515,7 +24437,7 @@ ParticleSystem:
     maxLights: 20
   TrailModule:
     enabled: 0
-    mode: 0
+    mode: 1
     ratio: 1
     lifetime:
       serializedVersion: 2
@@ -33959,6 +33881,85 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 8239f4e2dc422704f9cf9f6bbf24f669, type: 3}
   m_PrefabInternal: {fileID: 1756989515}
+--- !u!21 &1793381532
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AIBall (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
+    (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
+    (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
+    (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned) (cloned)
+    (cloned)
+  m_Shader: {fileID: 4800000, guid: 1e6457a912ddc4e419db840a3bad1e4f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0.7
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Smoothness: 0.7
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.8479441, g: 0.9716981, b: 0.96161133, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1001 &1795758554
 Prefab:
   m_ObjectHideFlags: 0
@@ -37930,7 +37931,7 @@ MonoBehaviour:
   _noiseAmplitude: -0.5
   _noiseFrequency: 0.2
   _noiseMotion: {x: 0.3, y: 0.3, z: 0.3}
-  _material: {fileID: 298824367}
+  _material: {fileID: 1793381532}
   _compute: {fileID: 7200000, guid: 71ae9119da7452b4a846d0ceb2d6aea9, type: 3}
 --- !u!114 &1926346654
 MonoBehaviour:
