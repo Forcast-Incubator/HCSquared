@@ -17,6 +17,7 @@ public class GrowthRoot : MonoBehaviour {
     public Vector2 segmentRotationOffsetRandom = Vector2.zero;
     public AnimationCurve stemShape;
     private List<Segment> prefabList;
+    private GameObject[] gameObjectArray;
 
     //public Color leafColor;
     public bool animating = true;
@@ -33,7 +34,7 @@ public class GrowthRoot : MonoBehaviour {
 	void Awake () {
         numSegmentsPrevious = 0;
         prefabList = new List<Segment>();
-
+        gameObjectArray = new GameObject[numSegments];
         FillPrefabList();
         Random.InitState(seed);
         
@@ -55,7 +56,8 @@ public class GrowthRoot : MonoBehaviour {
         {
             for (int i = numSegmentsPrevious; i < numSegments; i++)
             {
-                prefabList.Add(new Segment(Instantiate(stemPrefab), Random.Range(segmentRotationOffsetRandom.x, segmentRotationOffsetRandom.y)));
+                gameObjectArray[i] = Instantiate(stemPrefab);
+                prefabList.Add(new Segment(gameObjectArray[i], Random.Range(segmentRotationOffsetRandom.x, segmentRotationOffsetRandom.y)));
                 prefabList[prefabList.Count - 1].gameObject.name = "Segment " + (i + 1);
                 prefabList[prefabList.Count - 1].gameObject.transform.parent = transform;
             }
@@ -86,7 +88,7 @@ public class GrowthRoot : MonoBehaviour {
 
         growthProgression = growthProgressionCache;
 
-        //StaticBatchingUtility.Combine(prefabList, gameObject);
+        StaticBatchingUtility.Combine(gameObjectArray, gameObject);
 
 
     }
