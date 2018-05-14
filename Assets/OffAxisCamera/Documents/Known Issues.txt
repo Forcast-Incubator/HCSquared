@@ -1,0 +1,4 @@
+
+
+–	View frustum gizmo is displays wrong when stereoEnabled is true.
+	Unity overwrites the frustum in internally. Waiting for Unity to fix.
