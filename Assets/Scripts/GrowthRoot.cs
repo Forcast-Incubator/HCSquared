@@ -18,7 +18,7 @@ public class GrowthRoot : MonoBehaviour {
     public AnimationCurve stemShape;
     private List<Segment> prefabList;
 
-    public Color leafColor;
+    //public Color leafColor;
     public bool animating = true;
 
     public int seed;
@@ -85,10 +85,14 @@ public class GrowthRoot : MonoBehaviour {
         }
 
         growthProgression = growthProgressionCache;
+
+        //StaticBatchingUtility.Combine(prefabList, gameObject);
+
+
     }
 
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
 
         if(numSegments != numSegmentsPrevious)
             FillPrefabList();
@@ -100,7 +104,7 @@ public class GrowthRoot : MonoBehaviour {
             prefabList[i].gameObject.transform.localScale = segmentScale * segmentSizeFromCurve;
             prefabList[i].rb.mass = Mathf.Clamp(segmentSizeFromCurve, 0.1f, 1.0f);
 
-            prefabList[i].mr.material.SetColor("_Color", leafColor);
+            //prefabList[i].mr.material.SetColor("_Color", leafColor);
 
             if (!animating)
                 prefabList[i].pd.Stop();
