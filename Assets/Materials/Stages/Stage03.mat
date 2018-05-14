@@ -128,8 +128,8 @@ Material:
     - _StartNormalStrength: 1
     - _StartRoughMult: 1
     - _Switch: 1
-    - _SwitchSlider: 0
-    - _Tesselation: 2
+    - _SwitchSlider: 1
+    - _Tesselation: 1
     - _TexRangeMax: 0
     - _TexRangeMin: 1.25
     - _UVSec: 0
@@ -141,4 +141,4 @@ Material:
     - _EndNrmDispMinMaxStr: {r: 1, g: -0.8, b: 0.2, a: 0.04}
     - _StartColor: {r: 1, g: 0.26666668, b: 0.8117647, a: 1}
     - _StartEndAddContrast: {r: 0.25, g: 4.75, b: -0.08, a: 0.7}
-    - _StartNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.19}
+    - _StartNrmDispMinMaxStr: {r: 1, g: -0.2, b: 0.8, a: 0.04}
