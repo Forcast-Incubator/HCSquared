@@ -108,14 +108,14 @@ Material:
     - _EndMetallic: 0
     - _EndRoughMult: 1
     - _FadePow: 1
-    - _Gloss: 0.801
+    - _Gloss: 0.67
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0.899
+    - _Metallic: 0.88
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Opacity: 0.257
+    - _Opacity: 0.38
     - _OutlineWidth: 0.035
     - _Parallax: 0.02
     - _ProjectionXtiling: 2
@@ -130,7 +130,7 @@ Material:
     - _Tesselation: 1
     - _TexRangeMax: 1
     - _TexRangeMin: 0
-    - _Transmission: 0.317
+    - _Transmission: 0.66
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
