@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4613246922906040}
   - component: {fileID: 198955613919254904}
   - component: {fileID: 199579222092578690}
+  - component: {fileID: 95994004419259096}
   m_Layer: 0
   m_Name: FillaDuster
   m_TagString: Untagged
@@ -35,12 +36,29 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1875144746562016}
   m_LocalRotation: {x: -0.6773926, y: -0.2966747, z: -0.2892166, w: 0.60784644}
-  m_LocalPosition: {x: -2.2759435, y: 0.42380315, z: 0.1106267}
+  m_LocalPosition: {x: -0.398, y: 0.203, z: -0.343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0.000005699386, y: 0.000001543333, z: 358.6403}
+--- !u!95 &95994004419259096
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1875144746562016}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!198 &198955613919254904
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -1737,7 +1755,7 @@ ParticleSystem:
     strength:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.8
+      scalar: 0.6
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -1867,7 +1885,7 @@ ParticleSystem:
     scrollSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.08
+      scalar: 0.06
       minScalar: 0
       maxCurve:
         serializedVersion: 2
