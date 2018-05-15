@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class RotateBall : MonoBehaviour {
     public float rotationSpeed = 5;
-	
-	// Update is called once per frame
-	void Update () {
-        transform.Rotate(Vector3.up * Time.deltaTime * rotationSpeed);
+    public Vector3 rotationVector = Vector3.up;
+
+    // Update is called once per frame
+    void Update () {
+        transform.Rotate(rotationVector.normalized * Time.deltaTime * rotationSpeed);
     }
 }
