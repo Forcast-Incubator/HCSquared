@@ -3531,666 +3531,6 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot3Mini3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot3Mini3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot3Mini3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot4
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot4
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot4
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot1Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot1Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot1Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot1Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot1Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot1Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot3Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot3Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot3Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot5
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot5
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot5
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot3Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot3Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot3Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
         time: 297.56668
         value: 1
         inSlope: Infinity
@@ -4823,216 +4163,6 @@ AnimationClip:
     - serializedVersion: 2
       path: 3764861626
       attribute: 86007819
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1134688925
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1134688925
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1134688925
-      attribute: 387144936
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3078486130
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3078486130
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3078486130
-      attribute: 387144936
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3764861626
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3764861626
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3764861626
-      attribute: 387144936
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2037279488
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2037279488
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2037279488
-      attribute: 387144936
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 883345931
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 883345931
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 883345931
-      attribute: 387144936
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3340176637
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3340176637
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3340176637
-      attribute: 387144936
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3229272292
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3229272292
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3229272292
-      attribute: 387144936
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1579048263
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1579048263
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1579048263
-      attribute: 387144936
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2913967025
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2913967025
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2913967025
-      attribute: 387144936
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 689532369
-      attribute: 178539660
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 689532369
-      attribute: 1736026215
-      script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-      typeID: 114
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 689532369
-      attribute: 387144936
       script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
       typeID: 114
       customType: 0
@@ -6277,666 +5407,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: growthForces.y
     path: GrowthRoot1Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot3Mini3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot3Mini3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot3Mini3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot4
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot4
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot4
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot1Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot1Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot1Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot1Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot1Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot1Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot3Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot3Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot3Mini2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot5
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot5
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot5
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot2
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot3Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot3Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot3Mini1
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.52156866
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.3897059
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.r
-    path: GrowthRoot3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.12156863
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.30882356
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.g
-    path: GrowthRoot3
-    classID: 114
-    script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 2
-        time: 282.56668
-        value: 0.32156864
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      - serializedVersion: 2
-        time: 300.18332
-        value: 0.19485295
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: leafColor.b
-    path: GrowthRoot3
     classID: 114
     script: {fileID: 11500000, guid: 77c394a910b41284890e2e8c3a40fee8, type: 3}
   - curve:
@@ -16326,6 +14796,210 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 1
   m_Events: []
+--- !u!74 &74447453334315698
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Recorded (14)
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 281.18332
+        value: 0.27058825
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 335.58334
+        value: 0.35294116
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: plantColor.r
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 0070a58a0c79c034cb6bdebba4faf162, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 281.18332
+        value: 0.12941177
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 335.58334
+        value: 0.31589308
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: plantColor.g
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 0070a58a0c79c034cb6bdebba4faf162, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 281.18332
+        value: 0.39607844
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 335.58334
+        value: 0.23615916
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: plantColor.b
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 0070a58a0c79c034cb6bdebba4faf162, type: 3}
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 0
+      attribute: 3597722374
+      script: {fileID: 11500000, guid: 0070a58a0c79c034cb6bdebba4faf162, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 3148679149
+      script: {fileID: 11500000, guid: 0070a58a0c79c034cb6bdebba4faf162, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 0
+      attribute: 3418878818
+      script: {fileID: 11500000, guid: 0070a58a0c79c034cb6bdebba4faf162, type: 3}
+      typeID: 114
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 335.58334
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 281.18332
+        value: 0.27058825
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 335.58334
+        value: 0.35294116
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: plantColor.r
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 0070a58a0c79c034cb6bdebba4faf162, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 281.18332
+        value: 0.12941177
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 335.58334
+        value: 0.31589308
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: plantColor.g
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 0070a58a0c79c034cb6bdebba4faf162, type: 3}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 281.18332
+        value: 0.39607844
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 335.58334
+        value: 0.23615916
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: plantColor.b
+    path: 
+    classID: 114
+    script: {fileID: 11500000, guid: 0070a58a0c79c034cb6bdebba4faf162, type: 3}
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 1
+  m_Events: []
 --- !u!74 &74472227353010430
 AnimationClip:
   m_ObjectHideFlags: 0
@@ -20607,6 +19281,7 @@ MonoBehaviour:
   m_Parent: {fileID: 11400000}
   m_Children:
   - {fileID: 114023753890179484}
+  - {fileID: 114812290236824328}
   m_Clips: []
 --- !u!114 &114128451238741278
 MonoBehaviour:
@@ -23972,6 +22647,35 @@ MonoBehaviour:
   - {fileID: 114182155710194624}
   - {fileID: 114436953399375168}
   m_Clips: []
+--- !u!114 &114812290236824328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1467732076, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: Animation Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 74447453334315698}
+  m_Parent: {fileID: 114127504065913382}
+  m_Children: []
+  m_Clips: []
+  m_OpenClipPreExtrapolation: 1
+  m_OpenClipPostExtrapolation: 1
+  m_OpenClipOffsetPosition: {x: 0, y: 0, z: 0}
+  m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_OpenClipTimeOffset: 0
+  m_MatchTargetFields: 63
+  m_Position: {x: 0, y: 0, z: 0}
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ApplyOffsets: 0
+  m_AvatarMask: {fileID: 0}
+  m_ApplyAvatarMask: 1
 --- !u!114 &114837193635448520
 MonoBehaviour:
   m_ObjectHideFlags: 1

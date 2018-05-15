@@ -33910,6 +33910,8 @@ PlayableDirector:
     value: {fileID: 781886656}
   - key: {fileID: 114969543400279280, guid: f46ff99f08a1b1a458f388a15673c494, type: 2}
     value: {fileID: 781886656}
+  - key: {fileID: 114812290236824328, guid: f46ff99f08a1b1a458f388a15673c494, type: 2}
+    value: {fileID: 273494510}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &1100136575
@@ -35079,7 +35081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1311566982
 Transform:
   m_ObjectHideFlags: 0
@@ -52220,7 +52222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1911965273
 Transform:
   m_ObjectHideFlags: 0
@@ -52537,7 +52539,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1212276913499220, guid: 17aa5f7bf76f0c64b910ea264ab83cc0, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 17aa5f7bf76f0c64b910ea264ab83cc0, type: 2}
