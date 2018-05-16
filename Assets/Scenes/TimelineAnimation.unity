@@ -44181,7 +44181,6 @@ GameObject:
   - component: {fileID: 1088561320}
   - component: {fileID: 1088561319}
   - component: {fileID: 1088561321}
-  - component: {fileID: 1088561322}
   m_Layer: 0
   m_Name: TimelineDirector
   m_TagString: Untagged
@@ -44439,36 +44438,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1088561317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a83e4d41d3144efb843adad75b278d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 37a71a54db617c84a95d3799e3720403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _port: 8000
-  _mode: 0
-  _ipAddress: 127.0.0.1
-  _remoteStatus: 2
-  onAnyMessage:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: OscSimpl.OscMessageEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  _multicastLoopback: 1
-  _bundleMessagesOnEndOfFrame: 0
-  _openOnAwake: 0
-  _settingsFoldout: 1
-  _messagesFoldout: 1
---- !u!114 &1088561322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1088561317}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c969c2f6fbe829469a30f95cdf575f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  oscOut: {fileID: 1088561321}
-  pd: {fileID: 1088561320}
+  channel: 0
+  noteNumber: 48
+  playingNote: 0
+  velocity: 0.9
+  duration: 0.1
 --- !u!1001 &1100136575
 Prefab:
   m_ObjectHideFlags: 0
