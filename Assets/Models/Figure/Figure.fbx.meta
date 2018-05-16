@@ -13,6 +13,7 @@ ModelImporter:
     4300000: uvflatten1
     4300002: transform5
     4300004: OUT
+    4300006: attribpromote1
   externalObjects: {}
   materials:
     importMaterials: 0

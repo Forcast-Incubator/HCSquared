@@ -104,6 +104,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaFresnel: 0
+    - _AlphaNrmPow: 0.44
+    - _AlphaVtxPow: 1.07
     - _Alphaadd: -0.33
     - _BumpScale: 1
     - _Cutoff: 0.5
