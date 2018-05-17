@@ -69617,7 +69617,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4226173215420974, guid: 30d987a5b9045e742aa0d602c15b6cb3, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 0.42
+      value: -6.34
       objectReference: {fileID: 0}
     - target: {fileID: 4226173215420974, guid: 30d987a5b9045e742aa0d602c15b6cb3, type: 2}
       propertyPath: m_LocalRotation.x
@@ -69642,7 +69642,7 @@ Prefab:
     - target: {fileID: 198911863432002360, guid: 30d987a5b9045e742aa0d602c15b6cb3,
         type: 2}
       propertyPath: randomSeed
-      value: 1494172665
+      value: -1371365061
       objectReference: {fileID: 0}
     - target: {fileID: 4226173215420974, guid: 30d987a5b9045e742aa0d602c15b6cb3, type: 2}
       propertyPath: m_LocalScale.x
@@ -69810,7 +69810,7 @@ Prefab:
     - target: {fileID: 198911863432002360, guid: 30d987a5b9045e742aa0d602c15b6cb3,
         type: 2}
       propertyPath: InitialModule.startColor.maxColor.a
-      value: 0.019607844
+      value: 0.015686275
       objectReference: {fileID: 0}
     - target: {fileID: 198911863432002360, guid: 30d987a5b9045e742aa0d602c15b6cb3,
         type: 2}
@@ -69825,12 +69825,12 @@ Prefab:
     - target: {fileID: 198911863432002360, guid: 30d987a5b9045e742aa0d602c15b6cb3,
         type: 2}
       propertyPath: ShapeModule.m_Scale.z
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 198911863432002360, guid: 30d987a5b9045e742aa0d602c15b6cb3,
         type: 2}
       propertyPath: ShapeModule.radius.value
-      value: 1
+      value: 0.5066552
       objectReference: {fileID: 0}
     - target: {fileID: 198911863432002360, guid: 30d987a5b9045e742aa0d602c15b6cb3,
         type: 2}
