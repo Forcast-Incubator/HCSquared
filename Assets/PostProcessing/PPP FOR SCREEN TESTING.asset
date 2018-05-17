@@ -134,9 +134,9 @@ MonoBehaviour:
       colorWheels:
         mode: 1
         log:
-          slope: {r: 1, g: 1, b: 1, a: 0.077108435}
-          power: {r: 1, g: 1, b: 1, a: 0.057831325}
-          offset: {r: 1, g: 1, b: 1, a: -0.019277109}
+          slope: {r: 0.99686724, g: 0.99373436, b: 1, a: 0.077108435}
+          power: {r: 0.9859896, g: 1, b: 0.99379677, a: 0.057831325}
+          offset: {r: 0.9859897, g: 0.99379694, b: 1, a: -0.019277109}
         linear:
           lift: {r: 1, g: 1, b: 1, a: 0}
           gamma: {r: 1, g: 1, b: 1, a: 0}
@@ -293,12 +293,12 @@ MonoBehaviour:
       size: 1
       luminanceContribution: 0.8
   vignette:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       mode: 0
       color: {r: 0, g: 0, b: 0, a: 1}
       center: {x: 0.5, y: 0.5}
-      intensity: 0.167
+      intensity: 0.252
       smoothness: 1
       roundness: 1
       mask: {fileID: 2800000, guid: 98c52069b4b16bd4fb9b8265a7a43274, type: 3}
