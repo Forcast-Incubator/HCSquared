@@ -33866,7 +33866,7 @@ MonoBehaviour:
   m_Name: Activation Track1
   m_EditorClassIdentifier: 
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 114391613057138700}
@@ -33942,7 +33942,7 @@ MonoBehaviour:
   m_Name: Activation Track
   m_EditorClassIdentifier: 
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
   m_Parent: {fileID: 114391613057138700}
