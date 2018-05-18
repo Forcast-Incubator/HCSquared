@@ -114,7 +114,7 @@ Material:
     - _EndDispStr: 0
     - _EndMetallic: 0
     - _EndNormalStrength: 1
-    - _EndRoughMult: 1
+    - _EndRoughMult: 2
     - _FadePow: 12.54
     - _GlossMapScale: 1
     - _Glossiness: 0.5
