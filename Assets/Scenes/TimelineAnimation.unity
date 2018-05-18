@@ -18839,7 +18839,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 100
-  field of view: 24.631784
+  field of view: 27.031927
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -33646,7 +33646,7 @@ ParticleSystemRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7f16aaa27226a4016aab4275eda79451, type: 2}
+  - {fileID: 2100000, guid: 260864f94aa7a09468251a4210cae304, type: 2}
   - {fileID: 2100000, guid: 454117cca95ee7440b8a50c6da2db934, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
