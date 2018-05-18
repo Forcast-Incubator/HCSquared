@@ -12,7 +12,7 @@ Material:
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3001
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -100,23 +100,23 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _CoreMetallicGloss: 0.608
+    - _CoreMetallicGloss: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissionFresnelPow: 3.66
-    - _EmisssionStr: 3.6
+    - _EmissionFresnelPow: 3
+    - _EmisssionStr: 1
     - _EndMetallic: 0
     - _EndRoughMult: 1
     - _FadePow: 1
-    - _Gloss: 0.67
+    - _Gloss: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0.88
+    - _Metallic: 1
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _Opacity: 0.38
+    - _Opacity: 0.1
     - _OutlineWidth: 0.035
     - _Parallax: 0.02
     - _ProjectionXtiling: 2
@@ -131,14 +131,14 @@ Material:
     - _Tesselation: 1
     - _TexRangeMax: 1
     - _TexRangeMin: 0
-    - _Transmission: 0.66
+    - _Transmission: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Col: {r: 0.8455882, g: 0.07461075, b: 0.07461075, a: 1}
-    - _Color: {r: 0.5051903, g: 0.6705644, b: 0.9411765, a: 1}
+    - _Color: {r: 1, g: 0.986004, b: 0.49264705, a: 1}
     - _CoreColor: {r: 0.5955882, g: 0.45248994, b: 0.14451772, a: 1}
-    - _EmissionCol: {r: 0.7941176, g: 1, b: 0.9829615, a: 1}
+    - _EmissionCol: {r: 1, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EndColor: {r: 1, g: 1, b: 1, a: 1}
     - _EndNrmDispMinMaxStr: {r: 0, g: 0, b: 0, a: 0}
