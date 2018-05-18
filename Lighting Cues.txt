@@ -1,21 +1,13 @@
 NOTE - TIME - EVENT
 1 	- 00:00:00 	- Timeline start
-2 	- 00:61:34 	- AI appears
-3 	- 00:00:00 	- 
-4 	- 00:00:00 	- 
-5 	- 00:00:00 	- 
-6 	- 00:00:00 	- 
-7 	- 00:00:00 	- 
-8 	- 00:00:00 	- 
-9 	- 00:00:00 	- 
-10 	- 00:00:00 	- 
-11 	- 00:00:00 	- 
-12 	- 00:00:00 	- 
-13 	- 00:00:00 	- 
-14 	- 00:00:00 	- 
-15 	- 00:00:00 	- 
-16 	- 00:00:00 	- 
-17 	- 00:00:00 	- 
-18 	- 00:00:00 	- 
-19 	- 00:00:00 	- 
-20 	- 00:00:00 	- 
+2 	- 00:45:07 	- Flakes start moving towards center
+3 	- 00:61:34 	- AI appears
+4 	- 00:00:00 	- Mist starts emitting from AI (WATER phase begins)
+5 	- 00:00:00 	- Steam spurt 1
+6 	- 00:00:00 	- Steam spurt 2
+7 	- 00:00:00 	- Grass starts growing (LIFE phase begins)
+8 	- 00:00:00 	- Breathing effect starts
+9 	- 00:00:00 	- Grass starts to die (DROUGHT phase begins)
+10 	- 00:00:00 	- Stage starts going dark (DISINTEGRATION phase begins)
+11 	- 00:00:00 	- Green flame appears
+12 	- 00:00:00 	- Green flame "explodes"

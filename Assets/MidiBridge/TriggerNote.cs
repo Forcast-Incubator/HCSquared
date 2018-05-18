@@ -23,7 +23,7 @@ public class TriggerNote : MonoBehaviour {
         {
             MidiOut.SendNoteOn(channel, noteNumber, velocity);
             playingLastFrame = true;
-            
+            Debug.Log("SENT NOTE: " + noteNumber);
         } else if ((playingNote == false) && (playingLastFrame == true))
         {
             MidiOut.SendNoteOff(channel, noteNumber);
