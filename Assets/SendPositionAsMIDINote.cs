@@ -32,21 +32,21 @@ public class SendPositionAsMIDINote : MonoBehaviour {
             axisAsPercentage.y = Mathf.Clamp01((lightPosition.position.y - minY.position.y) / (maxY.position.y - minY.position.y));
             axisAsPercentage.z = Mathf.Clamp01((lightPosition.position.z - minZ.position.z) / (maxZ.position.z - minZ.position.z));
 
-            /*
+            
             MidiOut.SendNoteOn(channel, axisNotes.x, axisAsPercentage.x);
             MidiOut.SendNoteOn(channel, axisNotes.y, axisAsPercentage.y);
             MidiOut.SendNoteOn(channel, axisNotes.z, axisAsPercentage.z);
-            */
-            Debug.Log(axisAsPercentage.ToString("F4"));
+            
+            //Debug.Log(axisAsPercentage.ToString("F4"));
 
             sendFrame = false;
         } else
         {
-            /*
+            
             MidiOut.SendNoteOff(channel, axisNotes.x);
             MidiOut.SendNoteOff(channel, axisNotes.y);
             MidiOut.SendNoteOff(channel, axisNotes.z);
-            */
+            
 
             sendFrame = true;
         }
