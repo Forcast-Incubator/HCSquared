@@ -83,7 +83,7 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _ThickRandom: 0.809
-    - _Thickness: 0.0136
+    - _Thickness: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
