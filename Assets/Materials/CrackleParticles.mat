@@ -92,12 +92,12 @@ Material:
     - _SoftParticlesNearFadeDistance: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Tesselation: 4
+    - _Tesselation: 2.9
     - _Translucency: 0
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
-    - _Color: {r: 0.22794116, g: 0.22458908, b: 0.22458908, a: 1}
+    - _Color: {r: 0.16911763, g: 0.16911763, b: 0.16911763, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
