@@ -4485,7 +4485,7 @@ Prefab:
     - target: {fileID: 198410947366419462, guid: c8550f22ee4a8db418ad7e088b05bbe5,
         type: 2}
       propertyPath: randomSeed
-      value: 1836350800
+      value: -1835904474
       objectReference: {fileID: 0}
     - target: {fileID: 4093692360506158, guid: c8550f22ee4a8db418ad7e088b05bbe5, type: 2}
       propertyPath: m_LocalScale.x
@@ -37538,13 +37538,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1044196299}
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.090655744, y: 1.8845949, z: 1.9286909}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 1.5, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1855321831}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!95 &1044196301
 Animator:
   serializedVersion: 3
@@ -38127,7 +38127,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 10, y: 10, z: 10}
+    m_Scale: {x: 10, y: 20, z: 5}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -51076,7 +51076,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 2079612478
+  randomSeed: -1982186631
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -68664,15 +68664,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4592567891147812, guid: 9840f7655b2c7dc4f93055756eca6e75, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4592567891147812, guid: 9840f7655b2c7dc4f93055756eca6e75, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4592567891147812, guid: 9840f7655b2c7dc4f93055756eca6e75, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4592567891147812, guid: 9840f7655b2c7dc4f93055756eca6e75, type: 2}
       propertyPath: m_LocalRotation.w
